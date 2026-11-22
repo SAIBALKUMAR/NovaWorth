@@ -17,7 +17,7 @@ impl EmailService {
         Self {
             client: Client::new(),
             api_key,
-            from: "Education Economy <no-reply@yourdomain.com>".to_string(),
+            from: "NovaWorth <no-reply@novaworth.ai>".to_string(),
         }
     }
 
@@ -59,7 +59,7 @@ impl EmailService {
         let html = format!(
             "<h1>🎓 Welcome, {username}!</h1><p>Your learning journey starts now.</p>"
         );
-        self.send(to, "Welcome to Education Economy", &html).await
+        self.send(to, "Welcome to NovaWorth", &html).await
     }
 
     /// Level-complete email with the XP/EC awarded.

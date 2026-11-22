@@ -21,7 +21,7 @@ The backend exposes a REST API; the UI is a same-origin SPA proxied by Caddy in 
 ## 2. Workspace layout
 
 ```
-education-economy/
+novaworth/
 ├── Cargo.toml                      # [workspace] + shared [workspace.dependencies]
 ├── .env.example
 ├── docker-compose.yml              # local dev: postgres (pgvector) + redis

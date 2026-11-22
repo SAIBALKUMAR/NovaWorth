@@ -361,7 +361,7 @@ export const contentDraftWorker = new Worker<ContentDraftJobData, ContentDraftJo
     }
 
     // 2. Formulate Prompt & Hash
-    const systemPrompt = `You are a Senior Instructional Designer in the Education Economy.
+    const systemPrompt = `You are a Senior Instructional Designer in the NovaWorth.
 Generate curriculum content strictly grounded in the provided SOURCE PACK.
 Target Outcome: "${targetOutcome}".
 Cognitive Band: ${bandNumber} of 10.
@@ -506,7 +506,7 @@ export async function rollbackLevelVersion(
   });
 
   // Purge CDN edge caches
-  await invalidateCdnCache(`https://cdn.education-economy.org/levels/${levelId}`);
+  await invalidateCdnCache(`https://cdn.novaworth.org/levels/${levelId}`);
 }
 ```
 

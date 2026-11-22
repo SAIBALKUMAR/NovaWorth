@@ -64,7 +64,7 @@ jobs:
           username: deploy
           key: ${{ secrets.HETZNER_SSH_KEY }}
           script: |
-            cd /opt/education-economy
+            cd /opt/novaworth
             docker compose -f docker-compose.prod.yml pull
             docker compose -f docker-compose.prod.yml up -d
             docker system prune -f

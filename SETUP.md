@@ -1,4 +1,4 @@
-# Education Economy — Setup & Deployment Runbook
+# NovaWorth — Setup & Deployment Runbook
 
 > Step-by-step guide: install the toolchain, create every required account, run the app locally, and deploy it to a VPS.
 > Pricing/limits verified against provider pages **November 2026** — re-check before you rely on them.
@@ -72,11 +72,11 @@ Store every value from this section in a scratch notes file — you'll paste the
 
 ### 3.1 GitHub (code + CI/CD)
 1. Go to https://github.com/signup → create a free account.
-2. Create the repository: https://github.com/new → Repository name `education-economy` → **Private** → **Create repository**. (We push the code here in step 6.)
+2. Create the repository: https://github.com/new → Repository name `novaworth` → **Private** → **Create repository**. (We push the code here in step 6.)
 
 ### 3.2 Neon — serverless Postgres
 1. Go to https://neon.com → **Sign up** (GitHub / Google / email). No credit card required.
-2. Dashboard → **Create a project** → name `education-economy` → choose the region **closest to your VPS** (e.g., `AWS eu-central` for Germany, or `AWS us-east` for the US) → **Create project**.
+2. Dashboard → **Create a project** → name `novaworth` → choose the region **closest to your VPS** (e.g., `AWS eu-central` for Germany, or `AWS us-east` for the US) → **Create project**.
 3. Open the project → **Connect** (or the "Connection string" panel) → copy the **Pooled** connection string. It looks like:
    `postgresql://<user>:<pass>@ep-xxxx.region.aws.neon.tech/neondb?sslmode=require`
    → Save this as **`DATABASE_URL`**.
@@ -84,10 +84,10 @@ Store every value from this section in a scratch notes file — you'll paste the
 
 ### 3.3 Cloudflare R2 — object storage
 1. Go to https://dash.cloudflare.com/sign-up → create a free account.
-2. Left sidebar → **R2** → **Create bucket** → name `education-economy-assets` → **Create bucket**.
+2. Left sidebar → **R2** → **Create bucket** → name `novaworth-assets` → **Create bucket**.
 3. Still on R2 → **Manage R2 API Tokens** → **Create API token** → grant *Object Read & Write* for that bucket → copy **Access Key ID** and **Secret Access Key**.
 4. Copy your **Account ID** (shown on the R2 overview / dashboard sidebar).
-   → Save as **`R2_ACCOUNT_ID`**, **`R2_ACCESS_KEY_ID`**, **`R2_SECRET_ACCESS_KEY`**, bucket **`education-economy-assets`**.
+   → Save as **`R2_ACCOUNT_ID`**, **`R2_ACCESS_KEY_ID`**, **`R2_SECRET_ACCESS_KEY`**, bucket **`novaworth-assets`**.
    > Free tier (as of Nov 2026): 10 GB-month storage, egress **free**.
 
 ### 3.4 Resend — transactional email
@@ -112,7 +112,7 @@ Store every value from this section in a scratch notes file — you'll paste the
    - **Type:** **CAX21** (4 vCPU ARM · 8 GB RAM · 80 GB NVMe) — or the smaller **CAX11** (2 vCPU · 4 GB · 40 GB)
    - **SSH key:** add one (generate first: `ssh-keygen -t ed25519` and paste `~/.ssh/id_ed25519.pub`)
    - **Networking:** public IPv4 + IPv6
-   - **Name:** `education-economy`
+   - **Name:** `novaworth`
 4. After creation, note the server's **public IPv4 address** (used for DNS and SSH).
 
 ### Credentials checklist
@@ -122,8 +122,8 @@ Store every value from this section in a scratch notes file — you'll paste the
 
 1. Clone the repo and enter it:
    ```bash
-   git clone https://github.com/<you>/education-economy.git
-   cd education-economy
+   git clone https://github.com/<you>/novaworth.git
+   cd novaworth
    ```
 2. Copy the template and open it:
    ```bash
@@ -148,13 +148,13 @@ Store every value from this section in a scratch notes file — you'll paste the
 
    # From Resend (3.4)
    RESEND_API_KEY=re_...
-   EMAIL_FROM=Education Economy <no-reply@yourdomain.com>
+   EMAIL_FROM=NovaWorth <no-reply@novaworth.ai>
 
    # From Cloudflare R2 (3.3) — used for asset storage (optional in the current build)
    R2_ACCOUNT_ID=...
    R2_ACCESS_KEY_ID=...
    R2_SECRET_ACCESS_KEY=...
-   R2_BUCKET=education-economy-assets
+   R2_BUCKET=novaworth-assets
 
    APP_ENV=development
    # Origin allowed by the API's CORS. For local trunk dev use the UI port.
@@ -224,9 +224,9 @@ trunk serve                # http://localhost:8080
 
 ### 6.1 (Recommended) Point a domain at the VPS
 1. In your DNS provider (or Cloudflare, if you moved your domain there), create an **A record** for your hostname (e.g. `learn`) → your **VPS IPv4**.
-   - E.g. `learn.example.com  A  1.2.3.4`
+   - E.g. `novaworth.ai  A  1.2.3.4`
    - If using Cloudflare, set the record to **DNS only** (grey cloud) while first testing, to avoid conflicts with Let's Encrypt.
-2. Edit the repo **`Caddyfile`**: replace `yourdomain.com` with your actual hostname (e.g. `learn.example.com`).
+2. Edit the repo **`Caddyfile`**: replace `novaworth.ai` with your actual hostname (e.g. `novaworth.ai`).
 
 ### 6.2 One-time VPS setup
 ```bash
@@ -240,13 +240,13 @@ curl -fsSL https://get.docker.com | sh
 docker compose version
 
 # clone the app
-sudo mkdir -p /opt/education-economy
-sudo chown $USER /opt/education-economy
-git clone https://github.com/<you>/education-economy.git /opt/education-economy
-cd /opt/education-economy
+sudo mkdir -p /opt/novaworth
+sudo chown $USER /opt/novaworth
+git clone https://github.com/<you>/novaworth.git /opt/novaworth
+cd /opt/novaworth
 ```
 
-Create `/opt/education-economy/.env` with **production** values (same keys as step 4, but):
+Create `/opt/novaworth/.env` with **production** values (same keys as step 4, but):
 ```env
 DATABASE_URL=postgresql://...  # your Neon pooled URL
 REDIS_URL=redis://redis:6379   # internal Docker service name in prod
@@ -254,13 +254,13 @@ SESSION_SECRET=<a long random secret>
 OPENAI_API_KEY=sk-...
 RESEND_API_KEY=re_...
 APP_ENV=production
-APP_URL=https://learn.example.com
+APP_URL=https://novaworth.ai
 ```
 
 ### 6.3 Build the UI (static site)
 On the VPS (install the wasm toolchain first), or locally then upload the `dist/` folder:
 ```bash
-cd /opt/education-economy/services/ui
+cd /opt/novaworth/services/ui
 rustup target add wasm32-unknown-unknown
 cargo install --locked trunk
 trunk build          # produces services/ui/dist/
@@ -269,7 +269,7 @@ Caddy serves `services/ui/dist` mounted at `/srv/www` (already configured).
 
 ### 6.4 Start the stack
 ```bash
-cd /opt/education-economy
+cd /opt/novaworth
 docker compose -f docker-compose.prod.yml up -d --build
 docker compose -f docker-compose.prod.yml ps
 ```
@@ -282,7 +282,7 @@ This builds + starts **api**, **genai**, **redis**, and **caddy**. Caddy request
    - `HETZNER_IP` — the VPS IPv4
    - `HETZNER_SSH_KEY` — the private key for the `deploy` user (add its `~/.ssh/authorized_keys` on the VPS)
    - (`GITHUB_TOKEN` is auto-provided.)
-4. To make `docker compose pull` resolve the image from GHCR, in `docker-compose.prod.yml` change the `api`/`genai` images to `ghcr.io/<you>/education-economy:latest` and remove their `build:` lines; then on the VPS run once: `echo $GHCR_TOKEN | docker login ghcr.io -u <you> --password-stdin`.
+4. To make `docker compose pull` resolve the image from GHCR, in `docker-compose.prod.yml` change the `api`/`genai` images to `ghcr.io/<you>/novaworth:latest` and remove their `build:` lines; then on the VPS run once: `echo $GHCR_TOKEN | docker login ghcr.io -u <you> --password-stdin`.
 
 > Start with the **manual** path (6.2–6.4) — it's simpler to debug. Add CI once it's stable.
 
@@ -290,13 +290,13 @@ This builds + starts **api**, **genai**, **redis**, and **caddy**. Caddy request
 
 ```bash
 # Through Caddy (public): should return HTTP 200 over HTTPS
-curl -I https://learn.example.com/health        # UI static index (200)
-curl https://learn.example.com/health           # routes to API /health via Caddy
-curl -I https://learn.example.com/              # UI HTML (200)
+curl -I https://novaworth.ai/health        # UI static index (200)
+curl https://novaworth.ai/health           # routes to API /health via Caddy
+curl -I https://novaworth.ai/              # UI HTML (200)
 ```
 
 Then in a browser:
-1. Open `https://learn.example.com` → the landing page renders.
+1. Open `https://novaworth.ai` → the landing page renders.
 2. **Register** a user → redirected to the **Dashboard**.
 3. **Dashboard** shows your XP/EC wallet + the leaderboard; the **AI tutor** box returns an explanation (requires a valid OpenAI key).
 

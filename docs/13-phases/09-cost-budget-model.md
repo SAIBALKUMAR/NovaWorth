@@ -31,7 +31,7 @@
 
 ## 1. Executive Summary & Financial Architecture
 
-The Education Economy platform is structured to eliminate the primary cause of early-stage venture failure: premature capital depletion on cloud infrastructure. Rather than provisioning speculative multi-zone clusters or unmetered proprietary APIs, the system operates under a strict, non-negotiable financial envelope:
+The NovaWorth platform is structured to eliminate the primary cause of early-stage venture failure: premature capital depletion on cloud infrastructure. Rather than provisioning speculative multi-zone clusters or unmetered proprietary APIs, the system operates under a strict, non-negotiable financial envelope:
 
 - **Upfront Capital Allocation:** Exactly **$1,000.00 USD** total cash committed for setup, research, domain, and development across Phase 0 and Phase 1.
 - **Ongoing Operational Ceiling:** A hard maximum expenditure of **$100.00 USD/month** sustained from bootstrapping reserves until platform revenue (sponsor pools and marketplace take-rates) reaches liquidity in Phase 2.

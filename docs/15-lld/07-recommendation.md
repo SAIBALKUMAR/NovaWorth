@@ -833,7 +833,7 @@ sequenceDiagram
 
 ```json
 {
-  "type": "https://education-economy.org/errors/recommendation/timeout",
+  "type": "https://novaworth.org/errors/recommendation/timeout",
   "title": "Recommendation Engine Calculation Timeout",
   "status": 504,
   "detail": "Recommendation computation exceeded the 1,000ms latency ceiling. Fallback cohort recommendations returned.",

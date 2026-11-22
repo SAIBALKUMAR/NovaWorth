@@ -35,7 +35,7 @@ It does **not** assert:
 | Rubric version | `rub-2026.1` |
 | Assessment version | `asm-cmp25-l40-v3` |
 | Integrity tier | `proctored` |
-| Issuer | Education Economy |
+| Issuer | NovaWorth |
 | Revocation status | `active` |
 
 Format: W3C Verifiable Credential (JSON-LD), signed; PDF and JSON export.

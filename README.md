@@ -1,8 +1,8 @@
-# Education Economy
+# NovaWorth
 
 **A learning-to-earn economy where verified human capability is the scarce asset.**
 
-Education Economy is a multi-platform learning product for a world where AI systems produce most goods and AI robotic flows deliver most services. When material abundance stops being the bottleneck, the thing society still needs is capable, adaptive, trustworthy humans. Education Economy turns that idea into a product loop:
+NovaWorth is a multi-platform learning product for a world where AI systems produce most goods and AI robotic flows deliver most services. When material abundance stops being the bottleneck, the thing society still needs is capable, adaptive, trustworthy humans. NovaWorth turns that idea into a product loop:
 
 > **Learn → Prove → Earn → Redeem → Learn again.**
 

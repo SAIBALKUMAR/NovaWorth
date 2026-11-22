@@ -26,7 +26,7 @@ pub fn App() -> impl IntoView {
                         <Route path=path!("/dashboard") view=DashboardPage/>
                     </Routes>
                 </main>
-                <footer class="app-footer">"Education Economy — Learn. Earn. Grow."</footer>
+                <footer class="app-footer">"NovaWorth — Learn. Earn. Grow."</footer>
             </div>
         </Router>
     }

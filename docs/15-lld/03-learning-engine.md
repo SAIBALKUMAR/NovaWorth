@@ -31,7 +31,7 @@
 ## 1. Architecture Overview & Component Topography
 
 ### 1.1 Purpose
-The Learning Engine executes the adaptive pedagogy pipeline for the Education Economy platform. Operating within a high-performance Next.js 15 App Router runtime on Hetzner CAX11 ARM architecture (2 vCPU, 4GB RAM), the engine is responsible for micro-level state transitions, real-time Bayesian knowledge inference, dynamic item selection, spaced review scheduling, and modal orchestration. It translates high-level syllabus definitions into personalized, sub-50ms learning loops while enforcing infrastructure constraints including Neon Postgres serverless storage (0.5GB tier limit) and Cloudflare R2 media boundaries.
+The Learning Engine executes the adaptive pedagogy pipeline for the NovaWorth platform. Operating within a high-performance Next.js 15 App Router runtime on Hetzner CAX11 ARM architecture (2 vCPU, 4GB RAM), the engine is responsible for micro-level state transitions, real-time Bayesian knowledge inference, dynamic item selection, spaced review scheduling, and modal orchestration. It translates high-level syllabus definitions into personalized, sub-50ms learning loops while enforcing infrastructure constraints including Neon Postgres serverless storage (0.5GB tier limit) and Cloudflare R2 media boundaries.
 
 ### 1.2 Component Topology
 The internal subsystem architecture is structured into seven decoupled, event-driven modules:

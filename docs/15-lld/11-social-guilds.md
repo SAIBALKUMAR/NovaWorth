@@ -330,7 +330,7 @@ export const guildActivity = pgTable(
 ## Section 3: League & Real-Time Leaderboard Design
 
 ### 3.1 Purpose
-Leagues provide seasonal, mastery-driven motivation across 12-week cycles. Unlike traditional toxic gaming leaderboards that reward mindless screen time, Education Economy leagues reward **verified mastery XP** earned through rigorous gate evaluations.
+Leagues provide seasonal, mastery-driven motivation across 12-week cycles. Unlike traditional toxic gaming leaderboards that reward mindless screen time, NovaWorth leagues reward **verified mastery XP** earned through rigorous gate evaluations.
 
 ### 3.2 Seasonal Tier Mechanics (12-Week Cadence)
 

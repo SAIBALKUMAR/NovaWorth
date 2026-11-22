@@ -34,7 +34,7 @@
 
 ## 1. Purpose & Architectural Contract
 
-This document constitutes the immutable design contract across the Education Economy platform. It governs all synchronous client-server HTTP interfaces, asynchronous domain event schemas, internal service boundaries, and partner webhook deliveries.
+This document constitutes the immutable design contract across the NovaWorth platform. It governs all synchronous client-server HTTP interfaces, asynchronous domain event schemas, internal service boundaries, and partner webhook deliveries.
 
 All platform features must conform strictly to these contracts. Changes to existing schemas must be additive and backward-compatible. Any breaking modification requires a formal schema deprecation notice and a version increment under `/api/v2/`.
 
@@ -259,7 +259,7 @@ Below is the OpenAPI 3.1 YAML definition covering the 13 most critical platform 
 ```yaml
 openapi: 3.1.0
 info:
-  title: Education Economy Core Engine API
+  title: NovaWorth Core Engine API
   version: 1.0.0
   description: Core synchronous REST contract for authentication, curriculum, learning, assessment, and economy.
 paths:

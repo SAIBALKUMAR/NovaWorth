@@ -1,4 +1,4 @@
-yourdomain.com {
+novaworth.ai {
     root * /srv/www
     encode gzip zstd
 

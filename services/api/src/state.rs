@@ -24,7 +24,7 @@ impl AppState {
             .timeout(std::time::Duration::from_secs(
                 common::constants::OUTGOING_HTTP_TIMEOUT_SECS,
             ))
-            .user_agent("education-economy/1.0")
+            .user_agent("novaworth/1.0")
             .build()
             .expect("Failed to build HTTP client");
 

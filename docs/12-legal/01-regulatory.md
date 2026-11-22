@@ -2,7 +2,7 @@
 
 ## 1. Purpose
 
-Education Economy touches education, employment, consumer finance, data protection, and child safety. This document maps the regulatory surface, the product's posture, and the controls that keep it compliant.
+NovaWorth touches education, employment, consumer finance, data protection, and child safety. This document maps the regulatory surface, the product's posture, and the controls that keep it compliant.
 
 **Posture:** the product is a learning and rewards platform, not an accredited school, a lender, a bank, or an employment agency. Claims and design must stay consistent with that.
 

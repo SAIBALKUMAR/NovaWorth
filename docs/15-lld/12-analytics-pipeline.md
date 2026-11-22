@@ -28,7 +28,7 @@
 ## Section 1: Event Architecture & Ingestion Pipeline
 
 ### 1.1 Purpose
-The Analytics Pipeline captures every pedagogical, financial, and behavioral interaction across the Education Economy platform without compromising application latency, ledger integrity, or learner privacy. It ingests events at client and edge boundaries, fans out into real-time product telemetry (PostHog), buffers through a resilient BullMQ queue on Redis, and loads into a serverless PostgreSQL analytical warehouse (Neon) for dbt-modeled reporting and Grafana operational dashboards.
+The Analytics Pipeline captures every pedagogical, financial, and behavioral interaction across the NovaWorth platform without compromising application latency, ledger integrity, or learner privacy. It ingests events at client and edge boundaries, fans out into real-time product telemetry (PostHog), buffers through a resilient BullMQ queue on Redis, and loads into a serverless PostgreSQL analytical warehouse (Neon) for dbt-modeled reporting and Grafana operational dashboards.
 
 ### 1.2 Pipeline Architecture Flow
 ```mermaid
@@ -395,7 +395,7 @@ services:
     restart: unless-stopped
     mem_limit: 800m
     environment:
-      - SITE_URL=https://telemetry.education-economy.org
+      - SITE_URL=https://telemetry.novaworth.org
       - SECRET_KEY=${POSTHOG_SECRET_KEY}
       - CLICKHOUSE_HOST=posthog-clickhouse
       - CLICKHOUSE_PORT=9000
@@ -416,7 +416,7 @@ services:
     mem_limit: 800m
     command: /compose/start-worker
     environment:
-      - SITE_URL=https://telemetry.education-economy.org
+      - SITE_URL=https://telemetry.novaworth.org
       - SECRET_KEY=${POSTHOG_SECRET_KEY}
       - CLICKHOUSE_HOST=posthog-clickhouse
       - DATABASE_URL=${NEON_POSTHOG_DATABASE_URL}
@@ -445,7 +445,7 @@ import posthog from 'posthog-js';
 export function initializeTelemetry(): void {
   if (typeof window === 'undefined') return;
 
-  const telemetryEndpoint = process.env.NEXT_PUBLIC_POSTHOG_HOST || 'https://telemetry.education-economy.org';
+  const telemetryEndpoint = process.env.NEXT_PUBLIC_POSTHOG_HOST || 'https://telemetry.novaworth.org';
   const apiKey = process.env.NEXT_PUBLIC_POSTHOG_KEY;
 
   if (!apiKey) {
@@ -455,7 +455,7 @@ export function initializeTelemetry(): void {
 
   posthog.init(apiKey, {
     api_host: telemetryEndpoint,
-    ui_host: 'https://telemetry.education-economy.org',
+    ui_host: 'https://telemetry.novaworth.org',
     autocapture: false, // Explicit tracking only (no DOM noise)
     capture_pageview: true,
     capture_pageleave: true,
@@ -876,7 +876,7 @@ datasources:
     type: postgres
     access: proxy
     url: ep-cool-lake-123456-pooler.us-east-2.aws.neon.tech:5432
-    database: education_economy
+    database: novaworth
     user: grafana_reader
     secureJsonData:
       password: "${GRAFANA_NEON_PASSWORD}"

@@ -559,7 +559,7 @@ sequenceDiagram
     autonumber
     actor Minor as "Minor Learner (<16)"
     actor Guardian as "Parent / Guardian"
-    participant App as "Education Economy Platform"
+    participant App as "NovaWorth Platform"
     participant Resend as "Resend Email Service"
     participant DB as "Neon Postgres"
 
@@ -928,7 +928,7 @@ All identity and authorization errors adhere to RFC 7807 Problem Details:
 
 ```json
 {
-  "type": "https://education-economy.org/errors/auth/rate-limit-exceeded",
+  "type": "https://novaworth.org/errors/auth/rate-limit-exceeded",
   "title": "Too Many Requests",
   "status": 429,
   "detail": "Maximum login attempts exceeded for this email address. Please retry after 900 seconds.",

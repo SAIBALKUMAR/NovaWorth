@@ -31,7 +31,7 @@
 ## 1. Architecture Overview
 
 ### 1.1 Purpose
-The AI Gateway serves as the centralized, multi-tenant control plane for all artificial intelligence and machine learning operations within the Education Economy platform. Operating on a strict zero-trust, privacy-first, and cost-constrained paradigm, the Gateway abstracts upstream Large Language Model (LLM) providers, enforces hard financial boundaries ($100/month platform operating cap in Phase 1; <$1.50/learner/month target; <$0.30/learner/month achieved), executes deterministic PII redaction, orchestrates Retrieval-Augmented Generation (RAG) over vector stores, coordinates multi-tiered response caching, and injects pedagogical guardrails before and after model inference.
+The AI Gateway serves as the centralized, multi-tenant control plane for all artificial intelligence and machine learning operations within the NovaWorth platform. Operating on a strict zero-trust, privacy-first, and cost-constrained paradigm, the Gateway abstracts upstream Large Language Model (LLM) providers, enforces hard financial boundaries ($100/month platform operating cap in Phase 1; <$1.50/learner/month target; <$0.30/learner/month achieved), executes deterministic PII redaction, orchestrates Retrieval-Augmented Generation (RAG) over vector stores, coordinates multi-tiered response caching, and injects pedagogical guardrails before and after model inference.
 
 The Gateway is engineered specifically to deploy within a resource-frugal production topology:
 - **Compute Host:** Hetzner Cloud CAX11 instance (2 vCPU ARM64 Ampere Altra, 4GB RAM, 40GB NVMe SSD, €4.49/month) running Docker Compose.
@@ -48,7 +48,7 @@ The Gateway is engineered specifically to deploy within a resource-frugal produc
 graph TD
     Client["Learner PWA / Next.js 15 Client"] -->|"HTTPS / SSE Stream"| Ingress["Next.js 15 Edge API Route (/api/v1/ai/*)"]
     
-    subgraph Gateway["Education Economy AI Gateway"]
+    subgraph Gateway["NovaWorth AI Gateway"]
         Ingress --> Auth["Lucia Auth v3 Session Validator"]
         Auth --> CostGuard["Cost Tracker & Budget Enforcer"]
         CostGuard --> PII["PII Scrubber (Regex & Tokenizer)"]
@@ -709,7 +709,7 @@ The Gateway maintains an immutable library of versioned system prompt templates 
 
 #### 4.2.1 AI Tutor System Prompt
 ```
-You are an expert tutor for {skill} at Level {level} of 100 in the Education Economy.
+You are an expert tutor for {skill} at Level {level} of 100 in the NovaWorth.
 Curriculum context:
 {rag_context}
 
@@ -1079,7 +1079,7 @@ export interface GuardrailResult {
 ## 7. Cost Tracking & Budget Enforcement
 
 ### 7.1 Purpose
-To protect the Education Economy's financial viability under the $1,000 project runway ($100/month maximum AI allocation in Phase 1), the Gateway executes strict multi-tiered token counting, real-time micro-dollar cost estimation, and graceful degradation ladders per learner.
+To protect the NovaWorth's financial viability under the $1,000 project runway ($100/month maximum AI allocation in Phase 1), the Gateway executes strict multi-tiered token counting, real-time micro-dollar cost estimation, and graceful degradation ladders per learner.
 
 ### 7.2 Monthly Cost Projections Across Scale
 
@@ -1148,7 +1148,7 @@ flowchart TD
 ```
 
 ### 7.5 Economic Formula Coupling
-Under the Education Economy's sovereign scoring framework, level awards emit Education Credits (EC) and Mastery Points (XP) calculated via power-law curves:
+Under the NovaWorth's sovereign scoring framework, level awards emit Education Credits (EC) and Mastery Points (XP) calculated via power-law curves:
 $$EC(L) = 10 \times L^{1.2} \times m_d \times Q \times E \times M \times R$$
 $$XP(L) = 100 \times L^{1.5} \times m_d$$
 

@@ -486,7 +486,7 @@ export const LevelPassedEmail: React.FC<LevelPassedEmailProps> = ({
             {/* Regulatory Footer */}
             <Section className="text-center text-xs text-slate-400">
               <Text>
-                Education Economy Foundation • Non-Profit Autonomous Learning Protocol
+                NovaWorth Foundation • Non-Profit Autonomous Learning Protocol
               </Text>
               <Text>
                 Sent to you because your account completed an authenticated assessment gate.
@@ -524,7 +524,7 @@ export async function sendLevelPassedEmail(
     const emailHtml = await render(LevelPassedEmail(props));
 
     const response = await resend.emails.send({
-      from: 'Education Economy <notifications@educationeconomy.org>',
+      from: 'NovaWorth <notifications@educationeconomy.org>',
       to: recipientEmail,
       subject: `Level ${props.level} Mastered: ${props.skillName}`,
       html: emailHtml,

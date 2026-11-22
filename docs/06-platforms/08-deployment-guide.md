@@ -173,7 +173,7 @@ services:
   # 2. NEXT.JS 15 APP ROUTER PWA (SSR & RSC)
   # ----------------------------------------------------------------------------
   next-app:
-    image: ghcr.io/education-economy/edu-web:${IMAGE_TAG:-latest}
+    image: ghcr.io/novaworth/edu-web:${IMAGE_TAG:-latest}
     container_name: edu_web
     restart: unless-stopped
     expose:
@@ -205,7 +205,7 @@ services:
   # 3. REST & OPENAPI BACKEND ENGINE
   # ----------------------------------------------------------------------------
   api-server:
-    image: ghcr.io/education-economy/edu-api:${IMAGE_TAG:-latest}
+    image: ghcr.io/novaworth/edu-api:${IMAGE_TAG:-latest}
     container_name: edu_api
     restart: unless-stopped
     expose:
@@ -237,7 +237,7 @@ services:
   # 4. BULLMQ ASYNCHRONOUS WORKER
   # ----------------------------------------------------------------------------
   worker:
-    image: ghcr.io/education-economy/edu-worker:${IMAGE_TAG:-latest}
+    image: ghcr.io/novaworth/edu-worker:${IMAGE_TAG:-latest}
     container_name: edu_worker
     restart: unless-stopped
     env_file:
@@ -659,7 +659,7 @@ ssh edu-deploy@${HETZNER_VPS_IP}
 cd /home/edu-deploy/edu-economy
 
 # Step 2: Identify previous stable container image SHA
-docker images ghcr.io/education-economy/edu-web --format "{{.Tag}} {{.CreatedAt}}"
+docker images ghcr.io/novaworth/edu-web --format "{{.Tag}} {{.CreatedAt}}"
 
 # Step 3: Roll back to previous image tag
 export IMAGE_TAG="previous-stable-sha"
@@ -671,7 +671,7 @@ pnpm --filter @edu/db drizzle-kit drop-migration
 
 ### 10.2 User Status Communication Protocol
 1. **Minor Incident (Degraded AI Tutor):** Display in-app toast: *"AI Tutor is currently operating in offline mode with static hints."*
-2. **Major Incident (Ledger Write Lock):** Cloudflare activates Custom Error Page (HTTP 503): *"Education Economy ledger maintenance in progress. Your earned balances and progress are safe. Back online shortly."*
+2. **Major Incident (Ledger Write Lock):** Cloudflare activates Custom Error Page (HTTP 503): *"NovaWorth ledger maintenance in progress. Your earned balances and progress are safe. Back online shortly."*
 
 ---
 

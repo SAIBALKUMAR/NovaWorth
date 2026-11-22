@@ -1,5 +1,5 @@
 -- Migration: 0001_initial_schema
--- Creates the core tables for Education Economy Phase 0
+-- Creates the core tables for NovaWorth Phase 0
 
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 CREATE EXTENSION IF NOT EXISTS "pgcrypto";

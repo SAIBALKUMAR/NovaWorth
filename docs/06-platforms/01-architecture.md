@@ -32,20 +32,20 @@
 ## 1. System Context (C4 Level 1)
 
 ### 1.1 Purpose
-The Education Economy system transforms learning into an economically rewarded, verifiable proof of human capability. External actors interact with the unified platform to acquire skills, fund educational pools, supply redemption items, or govern system integrity.
+The NovaWorth system transforms learning into an economically rewarded, verifiable proof of human capability. External actors interact with the unified platform to acquire skills, fund educational pools, supply redemption items, or govern system integrity.
 
 ### 1.2 C4 Context Diagram
 ```mermaid
 C4Context
-    title System Context Diagram (C4 Level 1) - Education Economy Platform
+    title System Context Diagram (C4 Level 1) - NovaWorth Platform
 
     Person(learner, "Learner", "Acquires skills across 100 levels, proves mastery, earns XP and spendable EC")
     Person(sponsor, "Sponsor / Employer", "Funds targeted capability pools (fiat) for regions, skills, and cohorts")
     Person(merchant, "Merchant / Partner", "Supplies tangible goods, digital vouchers, and services in exchange for fiat settlement")
     Person(admin, "Platform Admin / Examiner", "Validates high-stakes gates (Level 91-100), monitors ledger integrity and fraud")
 
-    Enterprise_Boundary(b0, "Education Economy System Boundary") {
-        System(platform, "Education Economy Platform", "Monorepo web application, background workers, double-entry ledger, and AI orchestration engine")
+    Enterprise_Boundary(b0, "NovaWorth System Boundary") {
+        System(platform, "NovaWorth Platform", "Monorepo web application, background workers, double-entry ledger, and AI orchestration engine")
     }
 
     System_Ext(neon, "Neon Postgres", "Serverless PostgreSQL storing core entities, immutable double-entry ledger, and pgvector embeddings")

@@ -222,7 +222,7 @@ async fn github_callback(
         .http_client
         .get("https://api.github.com/user")
         .bearer_auth(token.access_token().secret())
-        .header("User-Agent", "education-economy/1.0")
+        .header("User-Agent", "novaworth/1.0")
         .send()
         .await?
         .json()
@@ -235,7 +235,7 @@ async fn github_callback(
             .http_client
             .get("https://api.github.com/user/emails")
             .bearer_auth(token.access_token().secret())
-            .header("User-Agent", "education-economy/1.0")
+            .header("User-Agent", "novaworth/1.0")
             .send()
             .await?
             .json()

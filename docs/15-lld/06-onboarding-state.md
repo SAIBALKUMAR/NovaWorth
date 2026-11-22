@@ -342,7 +342,7 @@ export function verifyResumeToken(token: string): { userId: string; step: string
 1. **Inactivity Detection:** A BullMQ cron job runs hourly on the Hetzner CAX11 host, scanning `onboarding_progress` for rows where:
    $$\text{lastActiveAt} < \text{now}() - 24\text{ hours} \land \text{currentStep} \notin [\text{'COMPLETE'}, \text{'ABANDONED'}]$$
 2. **Email Dispatch:** If the user has a valid verified email address and has not already received an abandonment email:
-   - System compiles an email with a 1-click magic link: `https://app.education-economy.org/onboarding/resume?token=${state.resumeToken}`
+   - System compiles an email with a 1-click magic link: `https://app.novaworth.org/onboarding/resume?token=${state.resumeToken}`
    - Email is dispatched via Resend API.
    - Status updated to `ABANDONED` with flag `emailSent = true`.
 
@@ -651,7 +651,7 @@ The onboarding interface is engineered to adhere strictly to **WCAG 2.2 Level AA
 
 ```json
 {
-  "type": "https://education-economy.org/errors/onboarding/timeout",
+  "type": "https://novaworth.org/errors/onboarding/timeout",
   "title": "Aptitude Sampler Timed Out",
   "status": 408,
   "detail": "The 5-minute allocation for the aptitude battery has elapsed. Your partial responses have been saved.",

@@ -32,7 +32,7 @@
 
 ## 1. Purpose & Governance Cadence
 
-This document serves as the comprehensive risk management register for the Education Economy platform. It catalogs, quantifies, and assigns mitigation protocols to all technical, systemic, economic, legal, and infrastructure failure modes. 
+This document serves as the comprehensive risk management register for the NovaWorth platform. It catalogs, quantifies, and assigns mitigation protocols to all technical, systemic, economic, legal, and infrastructure failure modes. 
 
 Under the project's strict bootstrapping constraint (**$1,000 upfront cash budget + $100/month maximum operating runway**), infrastructure failure modes that could otherwise be resolved via capital expenditure must be pre-empted through algorithmic fallbacks, zero-cost escape hatches, and strict quota governance.
 

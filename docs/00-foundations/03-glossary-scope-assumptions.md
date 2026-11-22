@@ -153,7 +153,7 @@
 
 ## 6. Key product boundaries
 
-1. **Education Economy is not a school.** It is a capability economy with learning as the engine.
+1. **NovaWorth is not a school.** It is a capability economy with learning as the engine.
 2. **It is not a test prep company.** Assessment exists to protect the value of the credential and the economy.
 3. **It is not a marketplace first.** The marketplace exists to make learning consequential; it is curated and capped.
 4. **It is not a metaverse.** Spatial is one modality among many.

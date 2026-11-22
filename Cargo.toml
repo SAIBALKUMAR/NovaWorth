@@ -21,7 +21,7 @@ default-members = ["services/api", "services/genai"]
 [workspace.package]
 version     = "0.1.0"
 edition     = "2021"
-authors     = ["Education Economy Team"]
+authors     = ["NovaWorth Team"]
 license     = "MIT"
 
 [workspace.dependencies]

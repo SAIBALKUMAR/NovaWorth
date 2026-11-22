@@ -33,7 +33,7 @@
 
 ## 1. Purpose & Financial Philosophy
 
-This roadmap sequences the build of the Education Economy platform from an initial validated concept to a livelihood-scale decentralized learning-to-earn ecosystem. The platform implements rigorous learning science powered by deterministic power-law scoring formulas:
+This roadmap sequences the build of the NovaWorth platform from an initial validated concept to a livelihood-scale decentralized learning-to-earn ecosystem. The platform implements rigorous learning science powered by deterministic power-law scoring formulas:
 
 $$\text{EC}(L) = 10 \times L^{1.2} \times m_d \times Q \times E \times M \times R$$
 
@@ -340,7 +340,7 @@ export function evaluateRunway(
 
 ```mermaid
 gantt
-    title Education Economy Master Delivery Timeline & Budget Boundaries
+    title NovaWorth Master Delivery Timeline & Budget Boundaries
     dateFormat  YYYY-MM-DD
     axisFormat  %b %Y
 
@@ -412,7 +412,7 @@ During Phase 1, all core services reside in a unified Docker network running on 
 
 ## 13. Open Source Alternatives & Escape Hatches
 
-To guarantee that the Education Economy platform can never be coerced or paralyzed by vendor pricing shifts or unexpected free-tier revocations, each proprietary or SaaS dependency possesses an immediate, validated open-source fallback.
+To guarantee that the NovaWorth platform can never be coerced or paralyzed by vendor pricing shifts or unexpected free-tier revocations, each proprietary or SaaS dependency possesses an immediate, validated open-source fallback.
 
 ```mermaid
 flowchart LR

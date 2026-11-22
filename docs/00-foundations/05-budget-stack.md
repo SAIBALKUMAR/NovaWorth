@@ -26,7 +26,7 @@
 ## 1. Executive Summary & Budget Reality
 
 ### 1.1 Purpose
-The Education Economy platform operates under strict capital constraints: a **$1,000 upfront capital allocation** and a maximum **$100/month ongoing operational budget** during Phase 0 (Research & Prototype) and Phase 1 (Alpha, 1,000 active learners). This document codifies the hardware, SaaS, API, and infrastructural unit economics required to build, deploy, scale, and maintain the system across Phase 0 through Phase 2 without incurring uncontrolled cloud debts or service interruptions.
+The NovaWorth platform operates under strict capital constraints: a **$1,000 upfront capital allocation** and a maximum **$100/month ongoing operational budget** during Phase 0 (Research & Prototype) and Phase 1 (Alpha, 1,000 active learners). This document codifies the hardware, SaaS, API, and infrastructural unit economics required to build, deploy, scale, and maintain the system across Phase 0 through Phase 2 without incurring uncontrolled cloud debts or service interruptions.
 
 The economic model rewards human mastery using verified assessment gates. Because economic emission curves scale non-linearly with skill level $L$ via:
 $$\text{EC}(L) = 10 \times L^{1.2} \times m_d \times Q \times E \times M \times R$$

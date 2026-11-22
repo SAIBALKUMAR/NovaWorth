@@ -74,7 +74,7 @@
 
 ## Free-Tier Infrastructure Constraints & Topology
 
-The Education Economy platform operates under a strictly capped monthly infrastructure budget of **$100/mo** across Phase 0 (prototyping) and Phase 1 (alpha, 1,000 active learners). All marketplace and escrow systems are strictly designed within these free and low-cost boundaries:
+The NovaWorth platform operates under a strictly capped monthly infrastructure budget of **$100/mo** across Phase 0 (prototyping) and Phase 1 (alpha, 1,000 active learners). All marketplace and escrow systems are strictly designed within these free and low-cost boundaries:
 
 | Resource / Service | Tier / SKU | Capacity / Limit | Marketplace Allocation | Failover / Overflow Policy |
 |---|---|---|---|---|
@@ -483,7 +483,7 @@ export const merchantSettlements = pgTable(
 ## Section 3: EC Escrow Flow (Saga Pattern)
 
 ### 3.1 Purpose
-Because the Education Economy separates user balances in the financial ledger from merchant fulfillment systems, a distributed Saga Orchestrator pattern coordinates execution across database boundaries and asynchronous webhooks without two-phase commit overhead.
+Because the NovaWorth separates user balances in the financial ledger from merchant fulfillment systems, a distributed Saga Orchestrator pattern coordinates execution across database boundaries and asynchronous webhooks without two-phase commit overhead.
 
 ### 3.2 Saga Sequence Flow
 

@@ -35,7 +35,7 @@
 
 ## 1. Purpose & Economic Model
 
-The Education Economy human-AI content factory is engineered to produce 50,000 curriculum levels across 500 distinct skills with consistent pedagogical rigor, uncompromising factual fidelity, and an all-in cost under $150 per accepted level. 
+The NovaWorth human-AI content factory is engineered to produce 50,000 curriculum levels across 500 distinct skills with consistent pedagogical rigor, uncompromising factual fidelity, and an all-in cost under $150 per accepted level. 
 
 In our architecture, artificial intelligence performs the cognitive heavy lifting: ingesting authoritative source packs, drafting 12-field level specifications, generating 20-item question banks, formulating 4-criterion diagnostic rubrics, and checking readability. Human domain experts (Subject Matter Experts - SMEs, Instructional Designers, and Editors) retain full ownership over factual truth, pedagogy, safety, and final release sign-off.
 
@@ -586,7 +586,7 @@ pie title AI Drafting Cost per Level ($0.00405 Total)
 ```
 
 ### 14.4 Coupling with Platform Economy & Author Royalties
-The microscopic cost of AI drafting enables the Education Economy to allocate 95% of its authoring budget directly to human Subject Matter Experts:
+The microscopic cost of AI drafting enables the NovaWorth to allocate 95% of its authoring budget directly to human Subject Matter Experts:
 - **SME Bounty per Accepted Level:** $50.00 to $100.00 in cash or equivalent Education Credits (EC).
 - When a level is approved, the author's reputation score increases, boosting their economic review multiplier $R$ in the sovereign reward formula:
   $$EC(L) = 10 \times L^{1.2} \times m_d \times Q \times E \times M \times R$$

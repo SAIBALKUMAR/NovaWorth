@@ -31,7 +31,7 @@
 ## 1. Gate Completion as a Distributed Transaction
 
 ### 1.1 Purpose & Problem Statement
-A Level Gate pass is the singular transition point in the Education Economy where verified capability produces real economic value (EC) and reputational standing (XP). Completing a gate is inherently a **distributed transaction** spanning six decoupled architectural domains:
+A Level Gate pass is the singular transition point in the NovaWorth where verified capability produces real economic value (EC) and reputational standing (XP). Completing a gate is inherently a **distributed transaction** spanning six decoupled architectural domains:
 
 1. **Assessment Service:** Validates item responses, timing verifications, and scoring rubrics.
 2. **Double-Entry Points Ledger:** Posts immutable credit transactions to user wallets backed by designated sponsor pools.

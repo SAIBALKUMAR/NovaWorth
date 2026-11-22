@@ -38,9 +38,9 @@
 
 ## 1. Purpose & System Scope
 
-Artificial Intelligence is embedded deeply across the Education Economy platform: adaptive tutoring, Socratic dialogue, automated artifact grading, simulation NPC role-play, recommendation engines, curriculum drafting, and cheating detection. The AI Architecture defines the structural boundaries, routing mechanics, grounding pipelines, sandbox tools, memory hierarchies, ethical guardrails, financial controls, and observability infrastructure.
+Artificial Intelligence is embedded deeply across the NovaWorth platform: adaptive tutoring, Socratic dialogue, automated artifact grading, simulation NPC role-play, recommendation engines, curriculum drafting, and cheating detection. The AI Architecture defines the structural boundaries, routing mechanics, grounding pipelines, sandbox tools, memory hierarchies, ethical guardrails, financial controls, and observability infrastructure.
 
-The core philosophy of the Education Economy AI subsystem is: **AI assists the learner in doing the cognitive work; it never replaces the learner's effort.** Under our sovereign economic model, verified learning unlocks spendable Education Credits (EC) and Mastery Points (XP) through power-law curves:
+The core philosophy of the NovaWorth AI subsystem is: **AI assists the learner in doing the cognitive work; it never replaces the learner's effort.** Under our sovereign economic model, verified learning unlocks spendable Education Credits (EC) and Mastery Points (XP) through power-law curves:
 $$EC(L) = 10 \times L^{1.2} \times m_d \times Q \times E \times M \times R$$
 $$XP(L) = 100 \times L^{1.5} \times m_d$$
 
@@ -446,7 +446,7 @@ Standardized prompt templates eliminate model drift, prevent jailbreaking, manda
 
 #### 15.2.1 Socratic AI Tutor Template
 ```
-You are an expert tutor for {skill} at Level {level} of 100 in the Education Economy.
+You are an expert tutor for {skill} at Level {level} of 100 in the NovaWorth.
 Curriculum context:
 {rag_context}
 
@@ -656,7 +656,7 @@ export async function enforceLearnerBudget(userId: string): Promise<'NORMAL' | '
 ```
 
 ### 17.4 Economic Formula Coupling
-Under the Education Economy's sovereign scoring framework:
+Under the NovaWorth's sovereign scoring framework:
 $$EC(L) = 10 \times L^{1.2} \times m_d \times Q \times E \times M \times R$$
 $$XP(L) = 100 \times L^{1.5} \times m_d$$
 

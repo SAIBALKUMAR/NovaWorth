@@ -31,7 +31,7 @@
 ## Section 1: Purpose & Design Principles
 
 ### 1.1 Purpose
-The Economy Ledger is the authoritative financial and progression sub-system of the Education Economy platform. It guarantees deterministic, mathematically verifiable, tamper-evident accounting for both non-fungible Mastery Points (`XP`) and fungible, backed Education Credits (`EC`). The ledger converts real, verified learner capability into consequential claims on real-world goods, services, and credentials without succumbing to speculative inflation, double-spending, or catastrophic ledger drift.
+The Economy Ledger is the authoritative financial and progression sub-system of the NovaWorth platform. It guarantees deterministic, mathematically verifiable, tamper-evident accounting for both non-fungible Mastery Points (`XP`) and fungible, backed Education Credits (`EC`). The ledger converts real, verified learner capability into consequential claims on real-world goods, services, and credentials without succumbing to speculative inflation, double-spending, or catastrophic ledger drift.
 
 ### 1.2 Core Architectural Principles
 

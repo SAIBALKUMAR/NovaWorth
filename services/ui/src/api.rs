@@ -1,4 +1,4 @@
-//! Typed REST client for the Education Economy API.
+//! Typed REST client for the NovaWorth API.
 //!
 //! Requests use a same-origin base (""), so in production Caddy routes
 //! `/auth/*`, `/economy/*`, `/social/*` → the API and `/generate/*` → GenAI.

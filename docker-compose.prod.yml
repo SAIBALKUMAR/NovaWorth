@@ -2,7 +2,7 @@
 services:
   api:
     build: .
-    image: education-economy:latest
+    image: novaworth:latest
     command: ["/app/bin/api"]
     restart: unless-stopped
     environment:
@@ -23,7 +23,7 @@ services:
 
   genai:
     build: .
-    image: education-economy:latest
+    image: novaworth:latest
     command: ["/app/bin/genai"]
     restart: unless-stopped
     environment:

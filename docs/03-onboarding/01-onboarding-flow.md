@@ -378,7 +378,7 @@ export interface OnboardingState {
 
 1. **Inactivity Trigger:** If a registered learner remains inactive for 24 hours without completing onboarding, a BullMQ background job triggers an abandonment notification.
 2. **Magic Link:** Dispatched via Resend API containing:
-   `https://app.education-economy.org/onboarding/resume?token=${resumeToken}`
+   `https://app.novaworth.org/onboarding/resume?token=${resumeToken}`
 3. **Expired Token Fallback (> 7 Days):** If a learner returns after the 7-day JWT expiration, the server recovers the `sub` claim, verifies the record in Neon Postgres, issues a fresh 7-day token, and restores the learner directly to their furthest completed step.
 
 ---

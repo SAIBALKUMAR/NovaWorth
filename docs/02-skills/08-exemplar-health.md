@@ -8,7 +8,7 @@ Related skills: `HLT-09 Preventive health`, `HLT-11 CPR & AED`, `HLT-21 Emergenc
 
 **Level 100 outcome:** Leads emergency-response education and system design, with verified impact on survival, training, or policy.
 
-> **Safety notice:** Education Economy credentials are not medical licenses. Learners must follow local law and seek professional care. High-risk practicals require supervised or simulated settings.
+> **Safety notice:** NovaWorth credentials are not medical licenses. Learners must follow local law and seek professional care. High-risk practicals require supervised or simulated settings.
 
 ---
 

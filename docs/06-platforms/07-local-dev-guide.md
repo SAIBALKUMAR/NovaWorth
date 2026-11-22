@@ -31,7 +31,7 @@
 ## 1. Engineering Prerequisites & Toolchains
 
 ### 1.1 Purpose
-This section establishes the deterministic host machine baseline required to develop, compile, test, and containerize the Education Economy platform without local version drift.
+This section establishes the deterministic host machine baseline required to develop, compile, test, and containerize the NovaWorth platform without local version drift.
 
 ### 1.2 Required Software Versions
 | Dependency | Exact Supported Version | Installation Command / Verification | Purpose in Toolchain |
@@ -98,7 +98,7 @@ Defines every runtime configuration key across apps and packages, providing expl
 ### 3.2 Master `.env.example` Template
 ```bash
 # ==============================================================================
-# EDUCATION ECONOMY - MASTER LOCAL ENVIRONMENT CONFIGURATION
+# NovaWorth - MASTER LOCAL ENVIRONMENT CONFIGURATION
 # Copy this file to '.env' at the repository root before running setup scripts.
 # ==============================================================================
 
@@ -197,7 +197,7 @@ flowchart TD
 
 ```bash
 # Step 1: Clone the monorepo
-git clone https://github.com/education-economy/edu-economy.git
+git clone https://github.com/novaworth/edu-economy.git
 cd edu-economy
 
 # Step 2: Install workspace dependencies using strict pnpm

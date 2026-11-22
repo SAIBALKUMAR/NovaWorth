@@ -1,6 +1,6 @@
 # Marketplace Overview
 
-**Title:** Education Economy Marketplace Architecture and Settlement Overview  
+**Title:** NovaWorth Marketplace Architecture and Settlement Overview  
 **Section Path:** `docs/08-marketplace/01-marketplace-overview.md`  
 **Version:** 1.1.0  
 **Last Updated:** 2026-11-21  

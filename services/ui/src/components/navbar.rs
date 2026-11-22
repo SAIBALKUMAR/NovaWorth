@@ -11,7 +11,7 @@ pub fn Navbar() -> impl IntoView {
 
     view! {
         <nav class="navbar">
-            <A href="/" class="brand">"🎓 Education Economy"</A>
+            <A href="/" class="brand">"🎓 NovaWorth"</A>
             <div class="nav-links">
                 <A href="/dashboard">"Dashboard"</A>
                 {move || {

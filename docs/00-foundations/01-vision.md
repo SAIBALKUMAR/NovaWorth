@@ -4,7 +4,7 @@
 
 AI systems increasingly produce the goods, and AI robotic flows increasingly deliver the services. In that world, the old bargain — "do a job, earn a living" — weakens. Material scarcity does not disappear, but it stops being the main constraint on human survival. The new constraint is **capability, judgment, trust, and the ability to keep adapting**.
 
-Education Economy is built on a blunt thesis:
+NovaWorth is built on a blunt thesis:
 
 > In an economy of AI abundance, the only durable differentiator for a human is the ability to learn, prove, and apply something real — continuously.
 
@@ -31,7 +31,7 @@ People will invest enormous effort when four things are true:
 3. Effort converts into **real advantage** — status, access, tools, services, and material rewards.
 4. The learner believes the system is **fair** — the rules are transparent and cheating is punished.
 
-Education Economy is the machine that makes all four true at once.
+NovaWorth is the machine that makes all four true at once.
 
 ## 4. The solution
 
