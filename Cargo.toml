@@ -1,0 +1,82 @@
+[workspace]
+resolver = "2"
+members = [
+    "services/ui",
+    "services/api",
+    "services/genai",
+    "crates/common",
+    "crates/db",
+    "crates/auth",
+    "crates/economy",
+    "crates/learning",
+    "crates/ai",
+    "crates/assessment",
+    "crates/recommendations",
+    "crates/notifications",
+    "crates/marketplace",
+    "crates/social",
+]
+default-members = ["services/api", "services/genai"]
+
+[workspace.package]
+version     = "0.1.0"
+edition     = "2021"
+authors     = ["Education Economy Team"]
+license     = "MIT"
+
+[workspace.dependencies]
+# Web framework
+axum              = { version = "0.8" }
+axum-login        = { version = "0.18" }
+tower             = { version = "0.4" }
+tower-http        = { version = "0.7", features = ["trace", "cors", "compression-gzip", "fs", "request-id", "timeout"] }
+tower-sessions    = { version = "0.14" }
+
+# Leptos UI
+leptos            = { version = "0.7" }
+leptos_axum       = { version = "0.7" }
+leptos_router     = { version = "0.7" }
+leptos_meta       = { version = "0.7" }
+
+# Async runtime
+tokio             = { version = "1", features = ["full"] }
+
+# Database
+sqlx              = { version = "0.9", features = ["postgres", "runtime-tokio", "tls-rustls", "macros", "chrono", "uuid"] }
+pgvector          = { version = "0.4", features = ["sqlx"] }
+
+# Auth
+argon2            = { version = "0.5" }
+password-hash     = { version = "0.5", features = ["rand_core"] }
+oauth2            = { version = "5.0" }
+
+# AI / ML
+async-openai      = { version = "0.28" }
+
+# Serialization
+serde             = { version = "1", features = ["derive"] }
+serde_json        = { version = "1" }
+
+# Utilities
+uuid              = { version = "1", features = ["v4", "serde"] }
+chrono            = { version = "0.4", features = ["serde"] }
+thiserror         = { version = "2" }
+anyhow            = { version = "1" }
+tracing           = { version = "0.1" }
+tracing-subscriber = { version = "0.3", features = ["env-filter", "fmt", "json"] }
+validator         = { version = "0.19", features = ["derive"] }
+fred              = { version = "9", features = ["tokio-runtime"] }
+reqwest           = { version = "0.12", features = ["json", "rustls-tls"] }
+dotenvy           = { version = "0.15" }
+async-trait       = { version = "0.1" }
+url               = { version = "2" }
+sha2              = { version = "0.10" }
+
+[profile.dev]
+opt-level = 0
+
+[profile.release]
+opt-level     = 3
+lto           = true
+codegen-units = 1
+strip         = true

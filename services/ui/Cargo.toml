@@ -1,0 +1,24 @@
+[package]
+name = "ui"
+version.workspace = true
+edition.workspace = true
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+path = "src/lib.rs"
+
+[[bin]]
+name = "ui"
+path = "src/main.rs"
+
+# The UI is a client-side (CSR) Leptos 0.7 app built for wasm32-unknown-unknown with
+# `trunk`. All Leptos/DOM dependencies are wasm-only so that `cargo check --workspace`
+# on a native target keeps compiling the backend as a no-op UI crate.
+[target.'cfg(target_arch = "wasm32")'.dependencies]
+leptos = { version = "0.7", features = ["csr"] }
+leptos_router = { version = "0.7", features = ["csr"] }
+leptos_meta = { version = "0.7", features = ["csr"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+reqwest = { version = "0.12", features = ["json"] }
+console_error_panic_hook = "0.1"

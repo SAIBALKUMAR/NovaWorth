@@ -1,0 +1,11 @@
+[package]
+name = "social"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+common = { path = "../common" }
+sqlx.workspace      = true
+serde.workspace     = true
+uuid.workspace      = true
+chrono.workspace    = true

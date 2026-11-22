@@ -1,0 +1,8 @@
+[package]
+name = "learning"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+common = { path = "../common" }
+chrono.workspace = true

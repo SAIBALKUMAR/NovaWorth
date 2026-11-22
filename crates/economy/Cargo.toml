@@ -1,0 +1,10 @@
+[package]
+name = "economy"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+common = { path = "../common" }
+sqlx.workspace      = true
+uuid.workspace      = true
+sha2.workspace      = true

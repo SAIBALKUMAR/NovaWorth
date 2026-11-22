@@ -1,0 +1,7 @@
+[package]
+name = "recommendations"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+# Pure-Rust algorithms; no external ML crates required.

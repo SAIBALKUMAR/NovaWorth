@@ -1,0 +1,19 @@
+yourdomain.com {
+    root * /srv/www
+    encode gzip zstd
+
+    # API (api:4000)
+    handle /api/*      { reverse_proxy api:4000 }
+    handle /auth/*     { reverse_proxy api:4000 }
+    handle /economy/*  { reverse_proxy api:4000 }
+    handle /social/*   { reverse_proxy api:4000 }
+
+    # GenAI (genai:5000)
+    handle /generate/* { reverse_proxy genai:5000 }
+
+    # Static UI (trunk `dist` output mounted at /srv/www) + SPA fallback.
+    handle {
+        try_files {path} /index.html
+        file_server
+    }
+}

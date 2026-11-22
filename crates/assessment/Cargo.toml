@@ -1,0 +1,13 @@
+[package]
+name = "assessment"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+common   = { path = "../common" }
+economy  = { path = "../economy" }
+learning = { path = "../learning" }
+sqlx.workspace = true
+uuid.workspace = true
+chrono.workspace = true
+tracing.workspace = true

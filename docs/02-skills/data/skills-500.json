@@ -1,0 +1,4502 @@
+[
+  {
+    "id": "COM-01",
+    "domain_code": "COM",
+    "domain": "Communication & Language",
+    "skill": "Active listening",
+    "archetype": "Relational",
+    "level_100_outcome": "Coaches leaders in high-stakes listening and resolves entrenched conflicts through deep inquiry.",
+    "assessment_modes": "quiz, roleplay, artifact, oral"
+  },
+  {
+    "id": "COM-02",
+    "domain_code": "COM",
+    "domain": "Communication & Language",
+    "skill": "Clear writing",
+    "archetype": "Relational",
+    "level_100_outcome": "Writes authoritative, widely cited prose that changes decisions at institutional scale.",
+    "assessment_modes": "quiz, roleplay, artifact, oral"
+  },
+  {
+    "id": "COM-03",
+    "domain_code": "COM",
+    "domain": "Communication & Language",
+    "skill": "Public speaking",
+    "archetype": "Relational",
+    "level_100_outcome": "Delivers keynote-level talks that move large audiences and withstand expert scrutiny.",
+    "assessment_modes": "quiz, roleplay, artifact, oral"
+  },
+  {
+    "id": "COM-04",
+    "domain_code": "COM",
+    "domain": "Communication & Language",
+    "skill": "Persuasion & argument",
+    "archetype": "Relational",
+    "level_100_outcome": "Shapes policy or market narratives through evidence-based persuasion at national scale.",
+    "assessment_modes": "quiz, roleplay, artifact, oral"
+  },
+  {
+    "id": "COM-05",
+    "domain_code": "COM",
+    "domain": "Communication & Language",
+    "skill": "Negotiation",
+    "archetype": "Relational",
+    "level_100_outcome": "Closes complex multi-party agreements under adversarial conditions.",
+    "assessment_modes": "quiz, roleplay, artifact, oral"
+  },
+  {
+    "id": "COM-06",
+    "domain_code": "COM",
+    "domain": "Communication & Language",
+    "skill": "Conflict resolution",
+    "archetype": "Relational",
+    "level_100_outcome": "Mediates systemic conflicts and trains mediators to an international standard.",
+    "assessment_modes": "quiz, roleplay, artifact, oral"
+  },
+  {
+    "id": "COM-07",
+    "domain_code": "COM",
+    "domain": "Communication & Language",
+    "skill": "Cross-cultural communication",
+    "archetype": "Relational",
+    "level_100_outcome": "Leads multicultural organizations and sets cross-cultural communication standards.",
+    "assessment_modes": "quiz, roleplay, artifact, oral"
+  },
+  {
+    "id": "COM-08",
+    "domain_code": "COM",
+    "domain": "Communication & Language",
+    "skill": "Storytelling",
+    "archetype": "Relational",
+    "level_100_outcome": "Creates stories that shift public understanding and are studied as exemplars.",
+    "assessment_modes": "quiz, roleplay, artifact, oral"
+  },
+  {
+    "id": "COM-09",
+    "domain_code": "COM",
+    "domain": "Communication & Language",
+    "skill": "Feedback & critique",
+    "archetype": "Relational",
+    "level_100_outcome": "Builds feedback cultures that measurably improve performance across large organizations.",
+    "assessment_modes": "quiz, roleplay, artifact, oral"
+  },
+  {
+    "id": "COM-10",
+    "domain_code": "COM",
+    "domain": "Communication & Language",
+    "skill": "Difficult conversations",
+    "archetype": "Relational",
+    "level_100_outcome": "Handles the hardest conversations with clarity and care, and teaches others to do the same.",
+    "assessment_modes": "quiz, roleplay, artifact, oral"
+  },
+  {
+    "id": "COM-11",
+    "domain_code": "COM",
+    "domain": "Communication & Language",
+    "skill": "Interviewing",
+    "archetype": "Relational",
+    "level_100_outcome": "Conducts interviews that surface truth in crisis and trains investigative interviewers.",
+    "assessment_modes": "quiz, roleplay, artifact, oral"
+  },
+  {
+    "id": "COM-12",
+    "domain_code": "COM",
+    "domain": "Communication & Language",
+    "skill": "Facilitation & meetings",
+    "archetype": "Relational",
+    "level_100_outcome": "Designs decision-making forums used by governments and large firms.",
+    "assessment_modes": "quiz, roleplay, artifact, oral"
+  },
+  {
+    "id": "COM-13",
+    "domain_code": "COM",
+    "domain": "Communication & Language",
+    "skill": "Technical writing",
+    "archetype": "Relational",
+    "level_100_outcome": "Sets the documentation standard for a major technology field.",
+    "assessment_modes": "quiz, roleplay, artifact, oral"
+  },
+  {
+    "id": "COM-14",
+    "domain_code": "COM",
+    "domain": "Communication & Language",
+    "skill": "Editing & proofreading",
+    "archetype": "Relational",
+    "level_100_outcome": "Edits works of national significance with flawless judgment.",
+    "assessment_modes": "quiz, roleplay, artifact, oral"
+  },
+  {
+    "id": "COM-15",
+    "domain_code": "COM",
+    "domain": "Communication & Language",
+    "skill": "Second-language fluency",
+    "archetype": "Relational",
+    "level_100_outcome": "Operates professionally at native-equivalent level in a second language.",
+    "assessment_modes": "quiz, roleplay, artifact, oral"
+  },
+  {
+    "id": "COM-16",
+    "domain_code": "COM",
+    "domain": "Communication & Language",
+    "skill": "Sign language",
+    "archetype": "Relational",
+    "level_100_outcome": "Interprets complex professional settings and trains interpreters.",
+    "assessment_modes": "quiz, roleplay, artifact, oral"
+  },
+  {
+    "id": "COM-17",
+    "domain_code": "COM",
+    "domain": "Communication & Language",
+    "skill": "Nonverbal communication",
+    "archetype": "Relational",
+    "level_100_outcome": "Reads and shapes group dynamics in high-stakes settings with expert accuracy.",
+    "assessment_modes": "quiz, roleplay, artifact, oral"
+  },
+  {
+    "id": "COM-18",
+    "domain_code": "COM",
+    "domain": "Communication & Language",
+    "skill": "Crisis communication",
+    "archetype": "Relational",
+    "level_100_outcome": "Leads communication through national crises and restores institutional trust.",
+    "assessment_modes": "quiz, roleplay, artifact, oral"
+  },
+  {
+    "id": "COM-19",
+    "domain_code": "COM",
+    "domain": "Communication & Language",
+    "skill": "Media literacy",
+    "archetype": "Relational",
+    "level_100_outcome": "Designs media-literacy programs adopted at national scale.",
+    "assessment_modes": "quiz, roleplay, artifact, oral"
+  },
+  {
+    "id": "COM-20",
+    "domain_code": "COM",
+    "domain": "Communication & Language",
+    "skill": "Debate",
+    "archetype": "Relational",
+    "level_100_outcome": "Competes or judges at world-championship level and advances debate theory.",
+    "assessment_modes": "quiz, roleplay, artifact, oral"
+  },
+  {
+    "id": "COM-21",
+    "domain_code": "COM",
+    "domain": "Communication & Language",
+    "skill": "Teaching & explanation",
+    "archetype": "Relational",
+    "level_100_outcome": "Explains frontier ideas so clearly that novices achieve expert-level gains.",
+    "assessment_modes": "quiz, roleplay, artifact, oral"
+  },
+  {
+    "id": "COM-22",
+    "domain_code": "COM",
+    "domain": "Communication & Language",
+    "skill": "Sales conversation",
+    "archetype": "Relational",
+    "level_100_outcome": "Builds consultative sales systems used across an industry.",
+    "assessment_modes": "quiz, roleplay, artifact, oral"
+  },
+  {
+    "id": "COM-23",
+    "domain_code": "COM",
+    "domain": "Communication & Language",
+    "skill": "Customer support",
+    "archetype": "Relational",
+    "level_100_outcome": "Designs support systems that achieve world-class trust at scale.",
+    "assessment_modes": "quiz, roleplay, artifact, oral"
+  },
+  {
+    "id": "COM-24",
+    "domain_code": "COM",
+    "domain": "Communication & Language",
+    "skill": "Grant & proposal writing",
+    "archetype": "Relational",
+    "level_100_outcome": "Wins transformative funding and teaches proposal writing nationally.",
+    "assessment_modes": "quiz, roleplay, artifact, oral"
+  },
+  {
+    "id": "COM-25",
+    "domain_code": "COM",
+    "domain": "Communication & Language",
+    "skill": "Translation & localization",
+    "archetype": "Relational",
+    "level_100_outcome": "Leads localization for a global product with cultural and legal accuracy.",
+    "assessment_modes": "quiz, roleplay, artifact, oral"
+  },
+  {
+    "id": "MTH-01",
+    "domain_code": "MTH",
+    "domain": "Mathematics & Quantitative Reasoning",
+    "skill": "Number sense",
+    "archetype": "Analytical",
+    "level_100_outcome": "Diagnoses numerical errors instantly and teaches number sense to struggling adults.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "MTH-02",
+    "domain_code": "MTH",
+    "domain": "Mathematics & Quantitative Reasoning",
+    "skill": "Arithmetic fluency",
+    "archetype": "Analytical",
+    "level_100_outcome": "Performs complex mental arithmetic reliably under pressure.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "MTH-03",
+    "domain_code": "MTH",
+    "domain": "Mathematics & Quantitative Reasoning",
+    "skill": "Fractions, ratios & percentages",
+    "archetype": "Analytical",
+    "level_100_outcome": "Applies proportional reasoning to novel policy and engineering problems.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "MTH-04",
+    "domain_code": "MTH",
+    "domain": "Mathematics & Quantitative Reasoning",
+    "skill": "Algebra",
+    "archetype": "Analytical",
+    "level_100_outcome": "Uses algebraic modeling to solve open-ended problems across domains.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "MTH-05",
+    "domain_code": "MTH",
+    "domain": "Mathematics & Quantitative Reasoning",
+    "skill": "Geometry",
+    "archetype": "Analytical",
+    "level_100_outcome": "Solves and proves advanced geometric results and applies geometry in design.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "MTH-06",
+    "domain_code": "MTH",
+    "domain": "Mathematics & Quantitative Reasoning",
+    "skill": "Statistics",
+    "archetype": "Analytical",
+    "level_100_outcome": "Designs and critiques statistical analyses at research-publication level.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "MTH-07",
+    "domain_code": "MTH",
+    "domain": "Mathematics & Quantitative Reasoning",
+    "skill": "Probability",
+    "archetype": "Analytical",
+    "level_100_outcome": "Builds probabilistic models for high-stakes decisions under uncertainty.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "MTH-08",
+    "domain_code": "MTH",
+    "domain": "Mathematics & Quantitative Reasoning",
+    "skill": "Data literacy",
+    "archetype": "Analytical",
+    "level_100_outcome": "Detects misleading data claims and sets organizational data standards.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "MTH-09",
+    "domain_code": "MTH",
+    "domain": "Mathematics & Quantitative Reasoning",
+    "skill": "Financial numeracy",
+    "archetype": "Analytical",
+    "level_100_outcome": "Models complex personal and institutional finance with confidence.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "MTH-10",
+    "domain_code": "MTH",
+    "domain": "Mathematics & Quantitative Reasoning",
+    "skill": "Measurement & estimation",
+    "archetype": "Analytical",
+    "level_100_outcome": "Produces estimates within expert tolerance in unfamiliar domains.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "MTH-11",
+    "domain_code": "MTH",
+    "domain": "Mathematics & Quantitative Reasoning",
+    "skill": "Logic & proofs",
+    "archetype": "Analytical",
+    "level_100_outcome": "Writes publishable proofs and identifies subtle logical errors.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "MTH-12",
+    "domain_code": "MTH",
+    "domain": "Mathematics & Quantitative Reasoning",
+    "skill": "Calculus",
+    "archetype": "Analytical",
+    "level_100_outcome": "Applies calculus to novel physics, economics, and optimization problems.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "MTH-13",
+    "domain_code": "MTH",
+    "domain": "Mathematics & Quantitative Reasoning",
+    "skill": "Linear algebra",
+    "archetype": "Analytical",
+    "level_100_outcome": "Uses linear algebra to build and analyze large-scale systems.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "MTH-14",
+    "domain_code": "MTH",
+    "domain": "Mathematics & Quantitative Reasoning",
+    "skill": "Discrete math",
+    "archetype": "Analytical",
+    "level_100_outcome": "Solves frontier combinatorial problems and teaches discrete math.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "MTH-15",
+    "domain_code": "MTH",
+    "domain": "Mathematics & Quantitative Reasoning",
+    "skill": "Optimization",
+    "archetype": "Analytical",
+    "level_100_outcome": "Formulates and solves large-scale optimization problems in production.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "MTH-16",
+    "domain_code": "MTH",
+    "domain": "Mathematics & Quantitative Reasoning",
+    "skill": "Modeling & simulation",
+    "archetype": "Analytical",
+    "level_100_outcome": "Builds validated models used for policy or engineering decisions.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "MTH-17",
+    "domain_code": "MTH",
+    "domain": "Mathematics & Quantitative Reasoning",
+    "skill": "Spreadsheet modeling",
+    "archetype": "Analytical",
+    "level_100_outcome": "Builds auditable financial models used for major decisions.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "MTH-18",
+    "domain_code": "MTH",
+    "domain": "Mathematics & Quantitative Reasoning",
+    "skill": "Experiment design",
+    "archetype": "Analytical",
+    "level_100_outcome": "Designs experiments that withstand peer review and scale.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "MTH-19",
+    "domain_code": "MTH",
+    "domain": "Mathematics & Quantitative Reasoning",
+    "skill": "Risk & uncertainty",
+    "archetype": "Analytical",
+    "level_100_outcome": "Quantifies and communicates tail risk to executives and regulators.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "MTH-20",
+    "domain_code": "MTH",
+    "domain": "Mathematics & Quantitative Reasoning",
+    "skill": "Graph literacy",
+    "archetype": "Analytical",
+    "level_100_outcome": "Interprets complex graphs and exposes misleading visualizations.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "MTH-21",
+    "domain_code": "MTH",
+    "domain": "Mathematics & Quantitative Reasoning",
+    "skill": "Algorithmic thinking",
+    "archetype": "Analytical",
+    "level_100_outcome": "Designs algorithms for novel problems with provable guarantees.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "MTH-22",
+    "domain_code": "MTH",
+    "domain": "Mathematics & Quantitative Reasoning",
+    "skill": "Cryptography math",
+    "archetype": "Analytical",
+    "level_100_outcome": "Contributes to cryptographic protocol design and analysis.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "MTH-23",
+    "domain_code": "MTH",
+    "domain": "Mathematics & Quantitative Reasoning",
+    "skill": "Game theory",
+    "archetype": "Analytical",
+    "level_100_outcome": "Applies game theory to market design and strategic policy.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "MTH-24",
+    "domain_code": "MTH",
+    "domain": "Mathematics & Quantitative Reasoning",
+    "skill": "Quantitative research",
+    "archetype": "Analytical",
+    "level_100_outcome": "Leads quantitative research published in top venues.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "MTH-25",
+    "domain_code": "MTH",
+    "domain": "Mathematics & Quantitative Reasoning",
+    "skill": "Advanced mathematical writing",
+    "archetype": "Analytical",
+    "level_100_outcome": "Writes mathematical exposition studied by specialists worldwide.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "SCI-01",
+    "domain_code": "SCI",
+    "domain": "Science & Systems Thinking",
+    "skill": "Scientific method",
+    "archetype": "Analytical",
+    "level_100_outcome": "Designs rigorous investigations and teaches scientific reasoning.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "SCI-02",
+    "domain_code": "SCI",
+    "domain": "Science & Systems Thinking",
+    "skill": "Physics fundamentals",
+    "archetype": "Analytical",
+    "level_100_outcome": "Explains everyday and frontier physics with quantitative accuracy.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "SCI-03",
+    "domain_code": "SCI",
+    "domain": "Science & Systems Thinking",
+    "skill": "Chemistry fundamentals",
+    "archetype": "Analytical",
+    "level_100_outcome": "Applies chemistry safely to novel materials and reactions.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "SCI-04",
+    "domain_code": "SCI",
+    "domain": "Science & Systems Thinking",
+    "skill": "Biology fundamentals",
+    "archetype": "Analytical",
+    "level_100_outcome": "Reasons across biological systems from molecules to ecosystems.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "SCI-05",
+    "domain_code": "SCI",
+    "domain": "Science & Systems Thinking",
+    "skill": "Earth & climate science",
+    "archetype": "Analytical",
+    "level_100_outcome": "Interprets climate evidence and designs resilience strategies.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "SCI-06",
+    "domain_code": "SCI",
+    "domain": "Science & Systems Thinking",
+    "skill": "Astronomy",
+    "archetype": "Analytical",
+    "level_100_outcome": "Analyzes astronomical data and communicates frontier findings.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "SCI-07",
+    "domain_code": "SCI",
+    "domain": "Science & Systems Thinking",
+    "skill": "Ecology",
+    "archetype": "Analytical",
+    "level_100_outcome": "Designs ecosystem restoration plans with measurable outcomes.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "SCI-08",
+    "domain_code": "SCI",
+    "domain": "Science & Systems Thinking",
+    "skill": "Human anatomy",
+    "archetype": "Analytical",
+    "level_100_outcome": "Applies anatomy in clinical or performance contexts with expert accuracy.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "SCI-09",
+    "domain_code": "SCI",
+    "domain": "Science & Systems Thinking",
+    "skill": "Genetics",
+    "archetype": "Analytical",
+    "level_100_outcome": "Interprets genomic data and explains inheritance at clinical level.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "SCI-10",
+    "domain_code": "SCI",
+    "domain": "Science & Systems Thinking",
+    "skill": "Neuroscience basics",
+    "archetype": "Analytical",
+    "level_100_outcome": "Connects neuroscience evidence to learning and behavior design.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "SCI-11",
+    "domain_code": "SCI",
+    "domain": "Science & Systems Thinking",
+    "skill": "Systems thinking",
+    "archetype": "Analytical",
+    "level_100_outcome": "Maps complex systems and identifies high-leverage interventions.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "SCI-12",
+    "domain_code": "SCI",
+    "domain": "Science & Systems Thinking",
+    "skill": "Feedback loops",
+    "archetype": "Analytical",
+    "level_100_outcome": "Diagnoses reinforcing and balancing loops in organizations and ecosystems.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "SCI-13",
+    "domain_code": "SCI",
+    "domain": "Science & Systems Thinking",
+    "skill": "Complexity & emergence",
+    "archetype": "Analytical",
+    "level_100_outcome": "Models emergent behavior and advises on complex adaptive systems.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "SCI-14",
+    "domain_code": "SCI",
+    "domain": "Science & Systems Thinking",
+    "skill": "Energy systems",
+    "archetype": "Analytical",
+    "level_100_outcome": "Designs or evaluates energy systems at grid scale.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "SCI-15",
+    "domain_code": "SCI",
+    "domain": "Science & Systems Thinking",
+    "skill": "Materials science",
+    "archetype": "Analytical",
+    "level_100_outcome": "Selects and invents materials for demanding applications.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "SCI-16",
+    "domain_code": "SCI",
+    "domain": "Science & Systems Thinking",
+    "skill": "Engineering design",
+    "archetype": "Analytical",
+    "level_100_outcome": "Leads engineering design from concept to verified deployment.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "SCI-17",
+    "domain_code": "SCI",
+    "domain": "Science & Systems Thinking",
+    "skill": "Experimentation & lab safety",
+    "archetype": "Analytical",
+    "level_100_outcome": "Runs safe labs and trains others in experimental rigor.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "SCI-18",
+    "domain_code": "SCI",
+    "domain": "Science & Systems Thinking",
+    "skill": "Science communication",
+    "archetype": "Analytical",
+    "level_100_outcome": "Translates frontier science for public decisions without distortion.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "SCI-19",
+    "domain_code": "SCI",
+    "domain": "Science & Systems Thinking",
+    "skill": "Evidence evaluation",
+    "archetype": "Analytical",
+    "level_100_outcome": "Evaluates evidence quality across disciplines and sets standards.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "SCI-20",
+    "domain_code": "SCI",
+    "domain": "Science & Systems Thinking",
+    "skill": "Epidemiology",
+    "archetype": "Analytical",
+    "level_100_outcome": "Interprets and designs epidemiological studies at public-health level.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "SCI-21",
+    "domain_code": "SCI",
+    "domain": "Science & Systems Thinking",
+    "skill": "Nutrition science",
+    "archetype": "Analytical",
+    "level_100_outcome": "Critiques nutrition evidence and designs evidence-based programs.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "SCI-22",
+    "domain_code": "SCI",
+    "domain": "Science & Systems Thinking",
+    "skill": "Pharmacology basics",
+    "archetype": "Analytical",
+    "level_100_outcome": "Understands drug mechanisms and interactions at clinical literacy level.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "SCI-23",
+    "domain_code": "SCI",
+    "domain": "Science & Systems Thinking",
+    "skill": "Robotics fundamentals",
+    "archetype": "Analytical",
+    "level_100_outcome": "Designs and debugs robotic systems in unstructured environments.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "SCI-24",
+    "domain_code": "SCI",
+    "domain": "Science & Systems Thinking",
+    "skill": "Space systems",
+    "archetype": "Analytical",
+    "level_100_outcome": "Engineers space systems under extreme constraints.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "SCI-25",
+    "domain_code": "SCI",
+    "domain": "Science & Systems Thinking",
+    "skill": "Research synthesis",
+    "archetype": "Analytical",
+    "level_100_outcome": "Produces authoritative systematic reviews that shape fields.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "CMP-01",
+    "domain_code": "CMP",
+    "domain": "Computing & Software",
+    "skill": "Computer literacy",
+    "archetype": "Technical",
+    "level_100_outcome": "Troubleshoots any common computing environment and teaches digital literacy.",
+    "assessment_modes": "quiz, artifact, sim, oral"
+  },
+  {
+    "id": "CMP-02",
+    "domain_code": "CMP",
+    "domain": "Computing & Software",
+    "skill": "Operating systems",
+    "archetype": "Technical",
+    "level_100_outcome": "Diagnoses OS-level performance and security issues.",
+    "assessment_modes": "quiz, artifact, sim, oral"
+  },
+  {
+    "id": "CMP-03",
+    "domain_code": "CMP",
+    "domain": "Computing & Software",
+    "skill": "Internet & web",
+    "archetype": "Technical",
+    "level_100_outcome": "Explains and debugs web protocols end to end.",
+    "assessment_modes": "quiz, artifact, sim, oral"
+  },
+  {
+    "id": "CMP-04",
+    "domain_code": "CMP",
+    "domain": "Computing & Software",
+    "skill": "Programming fundamentals",
+    "archetype": "Technical",
+    "level_100_outcome": "Writes clean, tested code in unfamiliar languages.",
+    "assessment_modes": "quiz, artifact, sim, oral"
+  },
+  {
+    "id": "CMP-05",
+    "domain_code": "CMP",
+    "domain": "Computing & Software",
+    "skill": "Python",
+    "archetype": "Technical",
+    "level_100_outcome": "Builds production Python systems and teaches advanced Python.",
+    "assessment_modes": "quiz, artifact, sim, oral"
+  },
+  {
+    "id": "CMP-06",
+    "domain_code": "CMP",
+    "domain": "Computing & Software",
+    "skill": "Data structures & algorithms",
+    "archetype": "Technical",
+    "level_100_outcome": "Solves novel algorithmic problems at competitive-programming level.",
+    "assessment_modes": "quiz, artifact, sim, oral"
+  },
+  {
+    "id": "CMP-07",
+    "domain_code": "CMP",
+    "domain": "Computing & Software",
+    "skill": "Software design",
+    "archetype": "Technical",
+    "level_100_outcome": "Designs maintainable systems under real constraints.",
+    "assessment_modes": "quiz, artifact, sim, oral"
+  },
+  {
+    "id": "CMP-08",
+    "domain_code": "CMP",
+    "domain": "Computing & Software",
+    "skill": "Version control",
+    "archetype": "Technical",
+    "level_100_outcome": "Runs release workflows for large distributed teams.",
+    "assessment_modes": "quiz, artifact, sim, oral"
+  },
+  {
+    "id": "CMP-09",
+    "domain_code": "CMP",
+    "domain": "Computing & Software",
+    "skill": "Testing & QA",
+    "archetype": "Technical",
+    "level_100_outcome": "Designs test strategies that catch critical defects at scale.",
+    "assessment_modes": "quiz, artifact, sim, oral"
+  },
+  {
+    "id": "CMP-10",
+    "domain_code": "CMP",
+    "domain": "Computing & Software",
+    "skill": "Databases",
+    "archetype": "Technical",
+    "level_100_outcome": "Designs and tunes databases for high-scale workloads.",
+    "assessment_modes": "quiz, artifact, sim, oral"
+  },
+  {
+    "id": "CMP-11",
+    "domain_code": "CMP",
+    "domain": "Computing & Software",
+    "skill": "APIs & integration",
+    "archetype": "Technical",
+    "level_100_outcome": "Designs API ecosystems used by thousands of developers.",
+    "assessment_modes": "quiz, artifact, sim, oral"
+  },
+  {
+    "id": "CMP-12",
+    "domain_code": "CMP",
+    "domain": "Computing & Software",
+    "skill": "Frontend development",
+    "archetype": "Technical",
+    "level_100_outcome": "Builds accessible, high-performance interfaces at scale.",
+    "assessment_modes": "quiz, artifact, sim, oral"
+  },
+  {
+    "id": "CMP-13",
+    "domain_code": "CMP",
+    "domain": "Computing & Software",
+    "skill": "Backend development",
+    "archetype": "Technical",
+    "level_100_outcome": "Builds resilient backend systems under heavy load.",
+    "assessment_modes": "quiz, artifact, sim, oral"
+  },
+  {
+    "id": "CMP-14",
+    "domain_code": "CMP",
+    "domain": "Computing & Software",
+    "skill": "Mobile development",
+    "archetype": "Technical",
+    "level_100_outcome": "Ships mobile apps with excellent performance and accessibility.",
+    "assessment_modes": "quiz, artifact, sim, oral"
+  },
+  {
+    "id": "CMP-15",
+    "domain_code": "CMP",
+    "domain": "Computing & Software",
+    "skill": "Cloud & DevOps",
+    "archetype": "Technical",
+    "level_100_outcome": "Designs multi-cloud delivery platforms with strong reliability.",
+    "assessment_modes": "quiz, artifact, sim, oral"
+  },
+  {
+    "id": "CMP-16",
+    "domain_code": "CMP",
+    "domain": "Computing & Software",
+    "skill": "Cybersecurity",
+    "archetype": "Technical",
+    "level_100_outcome": "Leads security architecture and incident response.",
+    "assessment_modes": "quiz, artifact, sim, oral"
+  },
+  {
+    "id": "CMP-17",
+    "domain_code": "CMP",
+    "domain": "Computing & Software",
+    "skill": "Networking",
+    "archetype": "Technical",
+    "level_100_outcome": "Diagnoses and designs networks at carrier scale.",
+    "assessment_modes": "quiz, artifact, sim, oral"
+  },
+  {
+    "id": "CMP-18",
+    "domain_code": "CMP",
+    "domain": "Computing & Software",
+    "skill": "Systems programming",
+    "archetype": "Technical",
+    "level_100_outcome": "Writes safe, high-performance systems code.",
+    "assessment_modes": "quiz, artifact, sim, oral"
+  },
+  {
+    "id": "CMP-19",
+    "domain_code": "CMP",
+    "domain": "Computing & Software",
+    "skill": "Distributed systems",
+    "archetype": "Technical",
+    "level_100_outcome": "Designs fault-tolerant distributed systems at global scale.",
+    "assessment_modes": "quiz, artifact, sim, oral"
+  },
+  {
+    "id": "CMP-20",
+    "domain_code": "CMP",
+    "domain": "Computing & Software",
+    "skill": "Performance engineering",
+    "archetype": "Technical",
+    "level_100_outcome": "Finds and fixes bottlenecks at hardware limits.",
+    "assessment_modes": "quiz, artifact, sim, oral"
+  },
+  {
+    "id": "CMP-21",
+    "domain_code": "CMP",
+    "domain": "Computing & Software",
+    "skill": "Site reliability",
+    "archetype": "Technical",
+    "level_100_outcome": "Runs SRE programs for critical services.",
+    "assessment_modes": "quiz, artifact, sim, oral"
+  },
+  {
+    "id": "CMP-22",
+    "domain_code": "CMP",
+    "domain": "Computing & Software",
+    "skill": "Game development",
+    "archetype": "Technical",
+    "level_100_outcome": "Ships games with polished systems and performance.",
+    "assessment_modes": "quiz, artifact, sim, oral"
+  },
+  {
+    "id": "CMP-23",
+    "domain_code": "CMP",
+    "domain": "Computing & Software",
+    "skill": "Embedded systems",
+    "archetype": "Technical",
+    "level_100_outcome": "Builds reliable embedded systems under power constraints.",
+    "assessment_modes": "quiz, artifact, sim, oral"
+  },
+  {
+    "id": "CMP-24",
+    "domain_code": "CMP",
+    "domain": "Computing & Software",
+    "skill": "Compiler design",
+    "archetype": "Technical",
+    "level_100_outcome": "Designs and optimizes language compilers.",
+    "assessment_modes": "quiz, artifact, sim, oral"
+  },
+  {
+    "id": "CMP-25",
+    "domain_code": "CMP",
+    "domain": "Computing & Software",
+    "skill": "Large-scale architecture",
+    "archetype": "Technical",
+    "level_100_outcome": "Architects systems serving billions of users.",
+    "assessment_modes": "quiz, artifact, sim, oral"
+  },
+  {
+    "id": "AID-01",
+    "domain_code": "AID",
+    "domain": "AI & Data",
+    "skill": "AI literacy",
+    "archetype": "Technical",
+    "level_100_outcome": "Explains AI capabilities and limits to executives and the public.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "AID-02",
+    "domain_code": "AID",
+    "domain": "AI & Data",
+    "skill": "Prompt engineering",
+    "archetype": "Technical",
+    "level_100_outcome": "Designs robust prompts and evaluation suites for production AI.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "AID-03",
+    "domain_code": "AID",
+    "domain": "AI & Data",
+    "skill": "Data collection & cleaning",
+    "archetype": "Technical",
+    "level_100_outcome": "Builds data pipelines that meet production quality standards.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "AID-04",
+    "domain_code": "AID",
+    "domain": "AI & Data",
+    "skill": "Exploratory data analysis",
+    "archetype": "Technical",
+    "level_100_outcome": "Finds decisive insights in messy data quickly.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "AID-05",
+    "domain_code": "AID",
+    "domain": "AI & Data",
+    "skill": "Statistics for ML",
+    "archetype": "Technical",
+    "level_100_outcome": "Applies statistical rigor to model development and evaluation.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "AID-06",
+    "domain_code": "AID",
+    "domain": "AI & Data",
+    "skill": "Machine learning",
+    "archetype": "Technical",
+    "level_100_outcome": "Builds and deploys ML systems with measured impact.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "AID-07",
+    "domain_code": "AID",
+    "domain": "AI & Data",
+    "skill": "Deep learning",
+    "archetype": "Technical",
+    "level_100_outcome": "Designs and trains deep models for novel problems.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "AID-08",
+    "domain_code": "AID",
+    "domain": "AI & Data",
+    "skill": "Natural language processing",
+    "archetype": "Technical",
+    "level_100_outcome": "Builds NLP systems at frontier quality.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "AID-09",
+    "domain_code": "AID",
+    "domain": "AI & Data",
+    "skill": "Computer vision",
+    "archetype": "Technical",
+    "level_100_outcome": "Deploys vision systems in safety-critical environments.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "AID-10",
+    "domain_code": "AID",
+    "domain": "AI & Data",
+    "skill": "Speech & audio AI",
+    "archetype": "Technical",
+    "level_100_outcome": "Builds robust speech systems across accents and noise.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "AID-11",
+    "domain_code": "AID",
+    "domain": "AI & Data",
+    "skill": "Recommender systems",
+    "archetype": "Technical",
+    "level_100_outcome": "Designs recommenders that balance relevance and wellbeing.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "AID-12",
+    "domain_code": "AID",
+    "domain": "AI & Data",
+    "skill": "LLM application design",
+    "archetype": "Technical",
+    "level_100_outcome": "Ships reliable LLM products with strong evaluations.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "AID-13",
+    "domain_code": "AID",
+    "domain": "AI & Data",
+    "skill": "Retrieval-augmented generation",
+    "archetype": "Technical",
+    "level_100_outcome": "Designs retrieval systems with high factual accuracy.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "AID-14",
+    "domain_code": "AID",
+    "domain": "AI & Data",
+    "skill": "Agentic workflows",
+    "archetype": "Technical",
+    "level_100_outcome": "Builds multi-agent systems that complete real work safely.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "AID-15",
+    "domain_code": "AID",
+    "domain": "AI & Data",
+    "skill": "Model evaluation",
+    "archetype": "Technical",
+    "level_100_outcome": "Designs evaluation programs that catch regressions and bias.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "AID-16",
+    "domain_code": "AID",
+    "domain": "AI & Data",
+    "skill": "AI safety & alignment",
+    "archetype": "Technical",
+    "level_100_outcome": "Leads AI safety reviews and red-teaming programs.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "AID-17",
+    "domain_code": "AID",
+    "domain": "AI & Data",
+    "skill": "MLOps",
+    "archetype": "Technical",
+    "level_100_outcome": "Runs ML platforms with reproducible training and deployment.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "AID-18",
+    "domain_code": "AID",
+    "domain": "AI & Data",
+    "skill": "Data engineering",
+    "archetype": "Technical",
+    "level_100_outcome": "Builds petabyte-scale data platforms.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "AID-19",
+    "domain_code": "AID",
+    "domain": "AI & Data",
+    "skill": "Analytics engineering",
+    "archetype": "Technical",
+    "level_100_outcome": "Builds trusted analytics layers used for decisions.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "AID-20",
+    "domain_code": "AID",
+    "domain": "AI & Data",
+    "skill": "Visualization & dashboards",
+    "archetype": "Technical",
+    "level_100_outcome": "Designs visualizations that change decisions.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "AID-21",
+    "domain_code": "AID",
+    "domain": "AI & Data",
+    "skill": "Causal inference",
+    "archetype": "Technical",
+    "level_100_outcome": "Estimates causal effects rigorously in observational data.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "AID-22",
+    "domain_code": "AID",
+    "domain": "AI & Data",
+    "skill": "AI product management",
+    "archetype": "Technical",
+    "level_100_outcome": "Leads AI products from discovery to scaled adoption.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "AID-23",
+    "domain_code": "AID",
+    "domain": "AI & Data",
+    "skill": "Synthetic data",
+    "archetype": "Technical",
+    "level_100_outcome": "Generates synthetic data with validated utility and privacy.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "AID-24",
+    "domain_code": "AID",
+    "domain": "AI & Data",
+    "skill": "Edge AI",
+    "archetype": "Technical",
+    "level_100_outcome": "Deploys AI under latency, power, and privacy constraints.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "AID-25",
+    "domain_code": "AID",
+    "domain": "AI & Data",
+    "skill": "AI governance",
+    "archetype": "Technical",
+    "level_100_outcome": "Designs AI governance frameworks adopted by institutions.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "HLT-01",
+    "domain_code": "HLT",
+    "domain": "Health & Body",
+    "skill": "Sleep",
+    "archetype": "Foundation",
+    "level_100_outcome": "Designs sleep interventions that measurably improve health.",
+    "assessment_modes": "quiz, sim, artifact"
+  },
+  {
+    "id": "HLT-02",
+    "domain_code": "HLT",
+    "domain": "Health & Body",
+    "skill": "Nutrition basics",
+    "archetype": "Foundation",
+    "level_100_outcome": "Builds evidence-based nutrition plans for diverse populations.",
+    "assessment_modes": "quiz, sim, artifact"
+  },
+  {
+    "id": "HLT-03",
+    "domain_code": "HLT",
+    "domain": "Health & Body",
+    "skill": "Hydration & electrolytes",
+    "archetype": "Foundation",
+    "level_100_outcome": "Prevents and manages hydration emergencies in sport and heat.",
+    "assessment_modes": "quiz, sim, artifact"
+  },
+  {
+    "id": "HLT-04",
+    "domain_code": "HLT",
+    "domain": "Health & Body",
+    "skill": "Exercise fundamentals",
+    "archetype": "Foundation",
+    "level_100_outcome": "Coaches safe, effective exercise across ages and conditions.",
+    "assessment_modes": "quiz, sim, artifact"
+  },
+  {
+    "id": "HLT-05",
+    "domain_code": "HLT",
+    "domain": "Health & Body",
+    "skill": "Strength training",
+    "archetype": "Foundation",
+    "level_100_outcome": "Programs strength training at elite or clinical level.",
+    "assessment_modes": "quiz, sim, artifact"
+  },
+  {
+    "id": "HLT-06",
+    "domain_code": "HLT",
+    "domain": "Health & Body",
+    "skill": "Mobility & flexibility",
+    "archetype": "Foundation",
+    "level_100_outcome": "Restores mobility in complex cases.",
+    "assessment_modes": "quiz, sim, artifact"
+  },
+  {
+    "id": "HLT-07",
+    "domain_code": "HLT",
+    "domain": "Health & Body",
+    "skill": "Cardio & endurance",
+    "archetype": "Foundation",
+    "level_100_outcome": "Designs endurance programs for performance and health.",
+    "assessment_modes": "quiz, sim, artifact"
+  },
+  {
+    "id": "HLT-08",
+    "domain_code": "HLT",
+    "domain": "Health & Body",
+    "skill": "Posture & ergonomics",
+    "archetype": "Foundation",
+    "level_100_outcome": "Fixes workplace ergonomics at organizational scale.",
+    "assessment_modes": "quiz, sim, artifact"
+  },
+  {
+    "id": "HLT-09",
+    "domain_code": "HLT",
+    "domain": "Health & Body",
+    "skill": "Preventive health",
+    "archetype": "Foundation",
+    "level_100_outcome": "Designs preventive health programs with measured outcomes.",
+    "assessment_modes": "quiz, sim, artifact"
+  },
+  {
+    "id": "HLT-10",
+    "domain_code": "HLT",
+    "domain": "Health & Body",
+    "skill": "First aid",
+    "archetype": "Foundation",
+    "level_100_outcome": "Handles emergencies calmly and trains first responders.",
+    "assessment_modes": "quiz, sim, artifact"
+  },
+  {
+    "id": "HLT-11",
+    "domain_code": "HLT",
+    "domain": "Health & Body",
+    "skill": "CPR & AED",
+    "archetype": "Foundation",
+    "level_100_outcome": "Leads CPR response and trains communities.",
+    "assessment_modes": "quiz, sim, artifact"
+  },
+  {
+    "id": "HLT-12",
+    "domain_code": "HLT",
+    "domain": "Health & Body",
+    "skill": "Infection control",
+    "archetype": "Foundation",
+    "level_100_outcome": "Designs infection-control protocols for high-risk settings.",
+    "assessment_modes": "quiz, sim, artifact"
+  },
+  {
+    "id": "HLT-13",
+    "domain_code": "HLT",
+    "domain": "Health & Body",
+    "skill": "Medication literacy",
+    "archetype": "Foundation",
+    "level_100_outcome": "Interprets medication regimens and prevents errors.",
+    "assessment_modes": "quiz, sim, artifact"
+  },
+  {
+    "id": "HLT-14",
+    "domain_code": "HLT",
+    "domain": "Health & Body",
+    "skill": "Chronic condition management",
+    "archetype": "Foundation",
+    "level_100_outcome": "Coaches complex chronic care in collaboration with clinicians.",
+    "assessment_modes": "quiz, sim, artifact"
+  },
+  {
+    "id": "HLT-15",
+    "domain_code": "HLT",
+    "domain": "Health & Body",
+    "skill": "Pain management",
+    "archetype": "Foundation",
+    "level_100_outcome": "Applies evidence-based pain management within scope.",
+    "assessment_modes": "quiz, sim, artifact"
+  },
+  {
+    "id": "HLT-16",
+    "domain_code": "HLT",
+    "domain": "Health & Body",
+    "skill": "Sexual health",
+    "archetype": "Foundation",
+    "level_100_outcome": "Provides accurate, nonjudgmental sexual health guidance.",
+    "assessment_modes": "quiz, sim, artifact"
+  },
+  {
+    "id": "HLT-17",
+    "domain_code": "HLT",
+    "domain": "Health & Body",
+    "skill": "Reproductive health",
+    "archetype": "Foundation",
+    "level_100_outcome": "Supports reproductive health decisions with clinical literacy.",
+    "assessment_modes": "quiz, sim, artifact"
+  },
+  {
+    "id": "HLT-18",
+    "domain_code": "HLT",
+    "domain": "Health & Body",
+    "skill": "Aging & elder care",
+    "archetype": "Foundation",
+    "level_100_outcome": "Designs elder-care plans that preserve dignity and safety.",
+    "assessment_modes": "quiz, sim, artifact"
+  },
+  {
+    "id": "HLT-19",
+    "domain_code": "HLT",
+    "domain": "Health & Body",
+    "skill": "Disability support",
+    "archetype": "Foundation",
+    "level_100_outcome": "Provides person-centered disability support at expert level.",
+    "assessment_modes": "quiz, sim, artifact"
+  },
+  {
+    "id": "HLT-20",
+    "domain_code": "HLT",
+    "domain": "Health & Body",
+    "skill": "Physical rehabilitation",
+    "archetype": "Foundation",
+    "level_100_outcome": "Guides rehabilitation programs in collaboration with clinicians.",
+    "assessment_modes": "quiz, sim, artifact"
+  },
+  {
+    "id": "HLT-21",
+    "domain_code": "HLT",
+    "domain": "Health & Body",
+    "skill": "Emergency preparedness",
+    "archetype": "Foundation",
+    "level_100_outcome": "Builds household and community emergency plans.",
+    "assessment_modes": "quiz, sim, artifact"
+  },
+  {
+    "id": "HLT-22",
+    "domain_code": "HLT",
+    "domain": "Health & Body",
+    "skill": "Health advocacy",
+    "archetype": "Foundation",
+    "level_100_outcome": "Navigates health systems and advocates for complex patients.",
+    "assessment_modes": "quiz, sim, artifact"
+  },
+  {
+    "id": "HLT-23",
+    "domain_code": "HLT",
+    "domain": "Health & Body",
+    "skill": "Lab & vital interpretation",
+    "archetype": "Foundation",
+    "level_100_outcome": "Interprets common labs and vitals within scope.",
+    "assessment_modes": "quiz, sim, artifact"
+  },
+  {
+    "id": "HLT-24",
+    "domain_code": "HLT",
+    "domain": "Health & Body",
+    "skill": "Surgery literacy",
+    "archetype": "Foundation",
+    "level_100_outcome": "Understands surgical pathways and supports recovery.",
+    "assessment_modes": "quiz, sim, artifact"
+  },
+  {
+    "id": "HLT-25",
+    "domain_code": "HLT",
+    "domain": "Health & Body",
+    "skill": "Public health",
+    "archetype": "Foundation",
+    "level_100_outcome": "Designs public-health interventions at population scale.",
+    "assessment_modes": "quiz, sim, artifact"
+  },
+  {
+    "id": "MND-01",
+    "domain_code": "MND",
+    "domain": "Mental Health & Mind",
+    "skill": "Emotional awareness",
+    "archetype": "Relational",
+    "level_100_outcome": "Teaches emotional granularity and regulation at scale.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "MND-02",
+    "domain_code": "MND",
+    "domain": "Mental Health & Mind",
+    "skill": "Stress management",
+    "archetype": "Relational",
+    "level_100_outcome": "Designs stress-reduction programs with measured outcomes.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "MND-03",
+    "domain_code": "MND",
+    "domain": "Mental Health & Mind",
+    "skill": "Anxiety coping",
+    "archetype": "Relational",
+    "level_100_outcome": "Coaches evidence-based anxiety coping within scope.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "MND-04",
+    "domain_code": "MND",
+    "domain": "Mental Health & Mind",
+    "skill": "Low-mood coping",
+    "archetype": "Relational",
+    "level_100_outcome": "Supports low mood safely and knows when to escalate.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "MND-05",
+    "domain_code": "MND",
+    "domain": "Mental Health & Mind",
+    "skill": "Sleep hygiene for mind",
+    "archetype": "Relational",
+    "level_100_outcome": "Designs sleep-mind interventions for clinical-adjacent populations.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "MND-06",
+    "domain_code": "MND",
+    "domain": "Mental Health & Mind",
+    "skill": "Mindfulness",
+    "archetype": "Relational",
+    "level_100_outcome": "Teaches mindfulness with fidelity and safety.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "MND-07",
+    "domain_code": "MND",
+    "domain": "Mental Health & Mind",
+    "skill": "Cognitive reframing",
+    "archetype": "Relational",
+    "level_100_outcome": "Coaches reframing that holds up under stress.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "MND-08",
+    "domain_code": "MND",
+    "domain": "Mental Health & Mind",
+    "skill": "Trauma-informed basics",
+    "archetype": "Relational",
+    "level_100_outcome": "Applies trauma-informed practice across organizations.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "MND-09",
+    "domain_code": "MND",
+    "domain": "Mental Health & Mind",
+    "skill": "Grief support",
+    "archetype": "Relational",
+    "level_100_outcome": "Supports grieving people with skill and boundaries.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "MND-10",
+    "domain_code": "MND",
+    "domain": "Mental Health & Mind",
+    "skill": "Addiction awareness",
+    "archetype": "Relational",
+    "level_100_outcome": "Recognizes addiction and connects people to care.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "MND-11",
+    "domain_code": "MND",
+    "domain": "Mental Health & Mind",
+    "skill": "Boundaries",
+    "archetype": "Relational",
+    "level_100_outcome": "Teaches boundaries in high-conflict systems.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "MND-12",
+    "domain_code": "MND",
+    "domain": "Mental Health & Mind",
+    "skill": "Self-compassion",
+    "archetype": "Relational",
+    "level_100_outcome": "Builds self-compassion practices that reduce burnout.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "MND-13",
+    "domain_code": "MND",
+    "domain": "Mental Health & Mind",
+    "skill": "Resilience",
+    "archetype": "Relational",
+    "level_100_outcome": "Designs resilience programs that do not blame individuals.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "MND-14",
+    "domain_code": "MND",
+    "domain": "Mental Health & Mind",
+    "skill": "Attention management",
+    "archetype": "Relational",
+    "level_100_outcome": "Designs attention systems for knowledge work.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "MND-15",
+    "domain_code": "MND",
+    "domain": "Mental Health & Mind",
+    "skill": "Digital wellbeing",
+    "archetype": "Relational",
+    "level_100_outcome": "Helps people rebuild healthy digital habits.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "MND-16",
+    "domain_code": "MND",
+    "domain": "Mental Health & Mind",
+    "skill": "Motivation design",
+    "archetype": "Relational",
+    "level_100_outcome": "Designs motivation systems that support autonomy.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "MND-17",
+    "domain_code": "MND",
+    "domain": "Mental Health & Mind",
+    "skill": "Habit formation",
+    "archetype": "Relational",
+    "level_100_outcome": "Builds habit systems that survive disruption.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "MND-18",
+    "domain_code": "MND",
+    "domain": "Mental Health & Mind",
+    "skill": "Therapy literacy",
+    "archetype": "Relational",
+    "level_100_outcome": "Navigates therapy options and evidence.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "MND-19",
+    "domain_code": "MND",
+    "domain": "Mental Health & Mind",
+    "skill": "Peer support",
+    "archetype": "Relational",
+    "level_100_outcome": "Provides peer support with strong boundaries and supervision.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "MND-20",
+    "domain_code": "MND",
+    "domain": "Mental Health & Mind",
+    "skill": "Crisis support",
+    "archetype": "Relational",
+    "level_100_outcome": "Responds to crisis safely and connects to emergency care.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "MND-21",
+    "domain_code": "MND",
+    "domain": "Mental Health & Mind",
+    "skill": "Burnout prevention",
+    "archetype": "Relational",
+    "level_100_outcome": "Diagnoses and fixes organizational burnout drivers.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "MND-22",
+    "domain_code": "MND",
+    "domain": "Mental Health & Mind",
+    "skill": "Psychological safety",
+    "archetype": "Relational",
+    "level_100_outcome": "Builds psychologically safe teams with measurable change.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "MND-23",
+    "domain_code": "MND",
+    "domain": "Mental Health & Mind",
+    "skill": "Neurodiversity awareness",
+    "archetype": "Relational",
+    "level_100_outcome": "Designs environments that support neurodivergent people.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "MND-24",
+    "domain_code": "MND",
+    "domain": "Mental Health & Mind",
+    "skill": "Couples communication",
+    "archetype": "Relational",
+    "level_100_outcome": "Teaches couples communication within scope.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "MND-25",
+    "domain_code": "MND",
+    "domain": "Mental Health & Mind",
+    "skill": "Mental health first aid",
+    "archetype": "Relational",
+    "level_100_outcome": "Responds to mental health emergencies and trains others.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "COK-01",
+    "domain_code": "COK",
+    "domain": "Cooking & Nutrition",
+    "skill": "Kitchen safety",
+    "archetype": "Craft",
+    "level_100_outcome": "Runs a kitchen with zero serious safety incidents.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "COK-02",
+    "domain_code": "COK",
+    "domain": "Cooking & Nutrition",
+    "skill": "Knife skills",
+    "archetype": "Craft",
+    "level_100_outcome": "Demonstrates professional knife speed and precision.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "COK-03",
+    "domain_code": "COK",
+    "domain": "Cooking & Nutrition",
+    "skill": "Food hygiene",
+    "archetype": "Craft",
+    "level_100_outcome": "Implements HACCP-level hygiene in a kitchen.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "COK-04",
+    "domain_code": "COK",
+    "domain": "Cooking & Nutrition",
+    "skill": "Basic cooking methods",
+    "archetype": "Craft",
+    "level_100_outcome": "Executes all core methods with consistent results.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "COK-05",
+    "domain_code": "COK",
+    "domain": "Cooking & Nutrition",
+    "skill": "Meal planning",
+    "archetype": "Craft",
+    "level_100_outcome": "Plans a month of varied, budgeted meals.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "COK-06",
+    "domain_code": "COK",
+    "domain": "Cooking & Nutrition",
+    "skill": "Grocery budgeting",
+    "archetype": "Craft",
+    "level_100_outcome": "Feeds a family well on a constrained budget.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "COK-07",
+    "domain_code": "COK",
+    "domain": "Cooking & Nutrition",
+    "skill": "Balanced plates",
+    "archetype": "Craft",
+    "level_100_outcome": "Designs balanced plates for diverse needs.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "COK-08",
+    "domain_code": "COK",
+    "domain": "Cooking & Nutrition",
+    "skill": "Baking basics",
+    "archetype": "Craft",
+    "level_100_outcome": "Bakes consistently at home and teaches others.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "COK-09",
+    "domain_code": "COK",
+    "domain": "Cooking & Nutrition",
+    "skill": "Sauces & seasoning",
+    "archetype": "Craft",
+    "level_100_outcome": "Balances flavor intuitively across cuisines.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "COK-10",
+    "domain_code": "COK",
+    "domain": "Cooking & Nutrition",
+    "skill": "Batch cooking",
+    "archetype": "Craft",
+    "level_100_outcome": "Builds efficient batch-cooking systems.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "COK-11",
+    "domain_code": "COK",
+    "domain": "Cooking & Nutrition",
+    "skill": "Cultural cuisines",
+    "archetype": "Craft",
+    "level_100_outcome": "Cooks multiple cuisines with cultural fidelity.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "COK-12",
+    "domain_code": "COK",
+    "domain": "Cooking & Nutrition",
+    "skill": "Fermentation",
+    "archetype": "Craft",
+    "level_100_outcome": "Ferments safely and develops new products.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "COK-13",
+    "domain_code": "COK",
+    "domain": "Cooking & Nutrition",
+    "skill": "Food preservation",
+    "archetype": "Craft",
+    "level_100_outcome": "Preserves food safely at scale.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "COK-14",
+    "domain_code": "COK",
+    "domain": "Cooking & Nutrition",
+    "skill": "Dietary restrictions",
+    "archetype": "Craft",
+    "level_100_outcome": "Designs safe, satisfying menus for restrictions.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "COK-15",
+    "domain_code": "COK",
+    "domain": "Cooking & Nutrition",
+    "skill": "Allergen safety",
+    "archetype": "Craft",
+    "level_100_outcome": "Prevents allergen incidents in professional settings.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "COK-16",
+    "domain_code": "COK",
+    "domain": "Cooking & Nutrition",
+    "skill": "Nutrition label reading",
+    "archetype": "Craft",
+    "level_100_outcome": "Decodes labels and exposes misleading claims.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "COK-17",
+    "domain_code": "COK",
+    "domain": "Cooking & Nutrition",
+    "skill": "Sports nutrition",
+    "archetype": "Craft",
+    "level_100_outcome": "Fuels athletes for performance and recovery.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "COK-18",
+    "domain_code": "COK",
+    "domain": "Cooking & Nutrition",
+    "skill": "Cooking for families",
+    "archetype": "Craft",
+    "level_100_outcome": "Feeds families with variety, budget, and joy.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "COK-19",
+    "domain_code": "COK",
+    "domain": "Cooking & Nutrition",
+    "skill": "Zero-waste cooking",
+    "archetype": "Craft",
+    "level_100_outcome": "Runs a near-zero-waste kitchen.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "COK-20",
+    "domain_code": "COK",
+    "domain": "Cooking & Nutrition",
+    "skill": "Advanced plating",
+    "archetype": "Craft",
+    "level_100_outcome": "Plates at fine-dining standard.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "COK-21",
+    "domain_code": "COK",
+    "domain": "Cooking & Nutrition",
+    "skill": "Butchery & fish",
+    "archetype": "Craft",
+    "level_100_outcome": "Breaks down proteins with professional yield.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "COK-22",
+    "domain_code": "COK",
+    "domain": "Cooking & Nutrition",
+    "skill": "Pastry",
+    "archetype": "Craft",
+    "level_100_outcome": "Produces pastry at professional standard.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "COK-23",
+    "domain_code": "COK",
+    "domain": "Cooking & Nutrition",
+    "skill": "Restaurant operations",
+    "archetype": "Craft",
+    "level_100_outcome": "Runs a restaurant profit-and-loss and service.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "COK-24",
+    "domain_code": "COK",
+    "domain": "Cooking & Nutrition",
+    "skill": "Food business",
+    "archetype": "Craft",
+    "level_100_outcome": "Launches and scales a food business.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "COK-25",
+    "domain_code": "COK",
+    "domain": "Cooking & Nutrition",
+    "skill": "Recipe development",
+    "archetype": "Craft",
+    "level_100_outcome": "Develops recipes that work at scale.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "HOM-01",
+    "domain_code": "HOM",
+    "domain": "Home & Practical Trades",
+    "skill": "Home safety",
+    "archetype": "Craft",
+    "level_100_outcome": "Audits and fixes home safety risks.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "HOM-02",
+    "domain_code": "HOM",
+    "domain": "Home & Practical Trades",
+    "skill": "Cleaning & sanitation",
+    "archetype": "Craft",
+    "level_100_outcome": "Designs cleaning systems for health and efficiency.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "HOM-03",
+    "domain_code": "HOM",
+    "domain": "Home & Practical Trades",
+    "skill": "Laundry & fabric care",
+    "archetype": "Craft",
+    "level_100_outcome": "Cares for complex fabrics and stains.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "HOM-04",
+    "domain_code": "HOM",
+    "domain": "Home & Practical Trades",
+    "skill": "Basic tools",
+    "archetype": "Craft",
+    "level_100_outcome": "Uses hand and power tools safely and precisely.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "HOM-05",
+    "domain_code": "HOM",
+    "domain": "Home & Practical Trades",
+    "skill": "Furniture assembly",
+    "archetype": "Craft",
+    "level_100_outcome": "Assembles and modifies furniture reliably.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "HOM-06",
+    "domain_code": "HOM",
+    "domain": "Home & Practical Trades",
+    "skill": "Wall repair & painting",
+    "archetype": "Craft",
+    "level_100_outcome": "Produces professional wall finishes.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "HOM-07",
+    "domain_code": "HOM",
+    "domain": "Home & Practical Trades",
+    "skill": "Plumbing basics",
+    "archetype": "Craft",
+    "level_100_outcome": "Diagnoses and fixes common plumbing issues.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "HOM-08",
+    "domain_code": "HOM",
+    "domain": "Home & Practical Trades",
+    "skill": "Electrical safety",
+    "archetype": "Craft",
+    "level_100_outcome": "Works safely around electricity within scope.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "HOM-09",
+    "domain_code": "HOM",
+    "domain": "Home & Practical Trades",
+    "skill": "Appliance maintenance",
+    "archetype": "Craft",
+    "level_100_outcome": "Maintains and repairs major appliances.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "HOM-10",
+    "domain_code": "HOM",
+    "domain": "Home & Practical Trades",
+    "skill": "HVAC basics",
+    "archetype": "Craft",
+    "level_100_outcome": "Diagnoses HVAC issues and improves efficiency.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "HOM-11",
+    "domain_code": "HOM",
+    "domain": "Home & Practical Trades",
+    "skill": "Gardening",
+    "archetype": "Craft",
+    "level_100_outcome": "Grows food and plants in challenging conditions.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "HOM-12",
+    "domain_code": "HOM",
+    "domain": "Home & Practical Trades",
+    "skill": "Composting",
+    "archetype": "Craft",
+    "level_100_outcome": "Runs a high-quality composting system.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "HOM-13",
+    "domain_code": "HOM",
+    "domain": "Home & Practical Trades",
+    "skill": "Pest management",
+    "archetype": "Craft",
+    "level_100_outcome": "Manages pests safely and preventively.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "HOM-14",
+    "domain_code": "HOM",
+    "domain": "Home & Practical Trades",
+    "skill": "Home security",
+    "archetype": "Craft",
+    "level_100_outcome": "Designs layered home security.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "HOM-15",
+    "domain_code": "HOM",
+    "domain": "Home & Practical Trades",
+    "skill": "Emergency repairs",
+    "archetype": "Craft",
+    "level_100_outcome": "Stabilizes home emergencies safely.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "HOM-16",
+    "domain_code": "HOM",
+    "domain": "Home & Practical Trades",
+    "skill": "Moving & logistics",
+    "archetype": "Craft",
+    "level_100_outcome": "Plans and executes complex moves.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "HOM-17",
+    "domain_code": "HOM",
+    "domain": "Home & Practical Trades",
+    "skill": "Interior measuring",
+    "archetype": "Craft",
+    "level_100_outcome": "Measures and plans interiors with precision.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "HOM-18",
+    "domain_code": "HOM",
+    "domain": "Home & Practical Trades",
+    "skill": "Sewing & repairs",
+    "archetype": "Craft",
+    "level_100_outcome": "Repairs and alters garments professionally.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "HOM-19",
+    "domain_code": "HOM",
+    "domain": "Home & Practical Trades",
+    "skill": "Woodworking",
+    "archetype": "Craft",
+    "level_100_outcome": "Builds fine furniture to specification.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "HOM-20",
+    "domain_code": "HOM",
+    "domain": "Home & Practical Trades",
+    "skill": "Car maintenance",
+    "archetype": "Craft",
+    "level_100_outcome": "Maintains and diagnoses a car safely.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "HOM-21",
+    "domain_code": "HOM",
+    "domain": "Home & Practical Trades",
+    "skill": "Bicycle maintenance",
+    "archetype": "Craft",
+    "level_100_outcome": "Builds and repairs bicycles at shop level.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "HOM-22",
+    "domain_code": "HOM",
+    "domain": "Home & Practical Trades",
+    "skill": "Solar & battery basics",
+    "archetype": "Craft",
+    "level_100_outcome": "Sizes and installs small solar systems.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "HOM-23",
+    "domain_code": "HOM",
+    "domain": "Home & Practical Trades",
+    "skill": "Smart home",
+    "archetype": "Craft",
+    "level_100_outcome": "Designs reliable, private smart-home systems.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "HOM-24",
+    "domain_code": "HOM",
+    "domain": "Home & Practical Trades",
+    "skill": "Renovation project management",
+    "archetype": "Craft",
+    "level_100_outcome": "Runs a renovation on budget and schedule.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "HOM-25",
+    "domain_code": "HOM",
+    "domain": "Home & Practical Trades",
+    "skill": "Sustainable home systems",
+    "archetype": "Craft",
+    "level_100_outcome": "Designs low-energy, low-water homes.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "FIN-01",
+    "domain_code": "FIN",
+    "domain": "Finance & Economics",
+    "skill": "Money basics",
+    "archetype": "Institutional",
+    "level_100_outcome": "Teaches money fundamentals to adults and youth.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "FIN-02",
+    "domain_code": "FIN",
+    "domain": "Finance & Economics",
+    "skill": "Budgeting",
+    "archetype": "Institutional",
+    "level_100_outcome": "Builds budgets that survive real life.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "FIN-03",
+    "domain_code": "FIN",
+    "domain": "Finance & Economics",
+    "skill": "Banking",
+    "archetype": "Institutional",
+    "level_100_outcome": "Navigates banking systems and fees optimally.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "FIN-04",
+    "domain_code": "FIN",
+    "domain": "Finance & Economics",
+    "skill": "Credit & debt",
+    "archetype": "Institutional",
+    "level_100_outcome": "Repairs credit and manages debt strategically.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "FIN-05",
+    "domain_code": "FIN",
+    "domain": "Finance & Economics",
+    "skill": "Saving",
+    "archetype": "Institutional",
+    "level_100_outcome": "Builds saving systems for irregular income.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "FIN-06",
+    "domain_code": "FIN",
+    "domain": "Finance & Economics",
+    "skill": "Investing fundamentals",
+    "archetype": "Institutional",
+    "level_100_outcome": "Explains investing risk and return clearly.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "FIN-07",
+    "domain_code": "FIN",
+    "domain": "Finance & Economics",
+    "skill": "Index investing",
+    "archetype": "Institutional",
+    "level_100_outcome": "Builds low-cost portfolios for long horizons.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "FIN-08",
+    "domain_code": "FIN",
+    "domain": "Finance & Economics",
+    "skill": "Taxes",
+    "archetype": "Institutional",
+    "level_100_outcome": "Files complex personal taxes accurately.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "FIN-09",
+    "domain_code": "FIN",
+    "domain": "Finance & Economics",
+    "skill": "Insurance",
+    "archetype": "Institutional",
+    "level_100_outcome": "Chooses insurance that matches real risk.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "FIN-10",
+    "domain_code": "FIN",
+    "domain": "Finance & Economics",
+    "skill": "Retirement planning",
+    "archetype": "Institutional",
+    "level_100_outcome": "Builds retirement plans under uncertainty.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "FIN-11",
+    "domain_code": "FIN",
+    "domain": "Finance & Economics",
+    "skill": "Fraud awareness",
+    "archetype": "Institutional",
+    "level_100_outcome": "Detects and prevents financial fraud.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "FIN-12",
+    "domain_code": "FIN",
+    "domain": "Finance & Economics",
+    "skill": "Housing finance",
+    "archetype": "Institutional",
+    "level_100_outcome": "Navigates mortgages and housing finance.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "FIN-13",
+    "domain_code": "FIN",
+    "domain": "Finance & Economics",
+    "skill": "Consumer rights",
+    "archetype": "Institutional",
+    "level_100_outcome": "Enforces consumer rights effectively.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "FIN-14",
+    "domain_code": "FIN",
+    "domain": "Finance & Economics",
+    "skill": "Pricing literacy",
+    "archetype": "Institutional",
+    "level_100_outcome": "Sees through pricing tricks and anchors.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "FIN-15",
+    "domain_code": "FIN",
+    "domain": "Finance & Economics",
+    "skill": "Inflation & interest",
+    "archetype": "Institutional",
+    "level_100_outcome": "Reasons about inflation and interest in decisions.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "FIN-16",
+    "domain_code": "FIN",
+    "domain": "Finance & Economics",
+    "skill": "Personal risk management",
+    "archetype": "Institutional",
+    "level_100_outcome": "Builds a personal risk plan.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "FIN-17",
+    "domain_code": "FIN",
+    "domain": "Finance & Economics",
+    "skill": "Small business finance",
+    "archetype": "Institutional",
+    "level_100_outcome": "Runs small-business finances cleanly.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "FIN-18",
+    "domain_code": "FIN",
+    "domain": "Finance & Economics",
+    "skill": "Payroll & invoicing",
+    "archetype": "Institutional",
+    "level_100_outcome": "Runs payroll and invoicing compliantly.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "FIN-19",
+    "domain_code": "FIN",
+    "domain": "Finance & Economics",
+    "skill": "Accounting basics",
+    "archetype": "Institutional",
+    "level_100_outcome": "Keeps accurate books and reconciles.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "FIN-20",
+    "domain_code": "FIN",
+    "domain": "Finance & Economics",
+    "skill": "Financial statements",
+    "archetype": "Institutional",
+    "level_100_outcome": "Reads and analyzes financial statements.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "FIN-21",
+    "domain_code": "FIN",
+    "domain": "Finance & Economics",
+    "skill": "Valuation",
+    "archetype": "Institutional",
+    "level_100_outcome": "Values businesses with defensible methods.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "FIN-22",
+    "domain_code": "FIN",
+    "domain": "Finance & Economics",
+    "skill": "Macro economics",
+    "archetype": "Institutional",
+    "level_100_outcome": "Interprets macro data for decisions.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "FIN-23",
+    "domain_code": "FIN",
+    "domain": "Finance & Economics",
+    "skill": "Market design",
+    "archetype": "Institutional",
+    "level_100_outcome": "Designs markets with good incentives.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "FIN-24",
+    "domain_code": "FIN",
+    "domain": "Finance & Economics",
+    "skill": "Behavioral economics",
+    "archetype": "Institutional",
+    "level_100_outcome": "Applies behavioral insights ethically.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "FIN-25",
+    "domain_code": "FIN",
+    "domain": "Finance & Economics",
+    "skill": "Financial planning",
+    "archetype": "Institutional",
+    "level_100_outcome": "Builds comprehensive financial plans.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "CIV-01",
+    "domain_code": "CIV",
+    "domain": "Civics & Law",
+    "skill": "Rights & responsibilities",
+    "archetype": "Institutional",
+    "level_100_outcome": "Knows and defends rights within systems.",
+    "assessment_modes": "quiz, artifact, roleplay"
+  },
+  {
+    "id": "CIV-02",
+    "domain_code": "CIV",
+    "domain": "Civics & Law",
+    "skill": "Voting & elections",
+    "archetype": "Institutional",
+    "level_100_outcome": "Navigates elections and civic information.",
+    "assessment_modes": "quiz, artifact, roleplay"
+  },
+  {
+    "id": "CIV-03",
+    "domain_code": "CIV",
+    "domain": "Civics & Law",
+    "skill": "Local government",
+    "archetype": "Institutional",
+    "level_100_outcome": "Influences local government effectively.",
+    "assessment_modes": "quiz, artifact, roleplay"
+  },
+  {
+    "id": "CIV-04",
+    "domain_code": "CIV",
+    "domain": "Civics & Law",
+    "skill": "Legal literacy",
+    "archetype": "Institutional",
+    "level_100_outcome": "Reads contracts and legal documents critically.",
+    "assessment_modes": "quiz, artifact, roleplay"
+  },
+  {
+    "id": "CIV-05",
+    "domain_code": "CIV",
+    "domain": "Civics & Law",
+    "skill": "Contracts",
+    "archetype": "Institutional",
+    "level_100_outcome": "Drafts and negotiates clear contracts.",
+    "assessment_modes": "quiz, artifact, roleplay"
+  },
+  {
+    "id": "CIV-06",
+    "domain_code": "CIV",
+    "domain": "Civics & Law",
+    "skill": "Consumer law",
+    "archetype": "Institutional",
+    "level_100_outcome": "Uses consumer law to resolve disputes.",
+    "assessment_modes": "quiz, artifact, roleplay"
+  },
+  {
+    "id": "CIV-07",
+    "domain_code": "CIV",
+    "domain": "Civics & Law",
+    "skill": "Employment law",
+    "archetype": "Institutional",
+    "level_100_outcome": "Understands workplace rights and obligations.",
+    "assessment_modes": "quiz, artifact, roleplay"
+  },
+  {
+    "id": "CIV-08",
+    "domain_code": "CIV",
+    "domain": "Civics & Law",
+    "skill": "Housing law",
+    "archetype": "Institutional",
+    "level_100_outcome": "Navigates housing law and tenancy.",
+    "assessment_modes": "quiz, artifact, roleplay"
+  },
+  {
+    "id": "CIV-09",
+    "domain_code": "CIV",
+    "domain": "Civics & Law",
+    "skill": "Family law basics",
+    "archetype": "Institutional",
+    "level_100_outcome": "Understands family law processes.",
+    "assessment_modes": "quiz, artifact, roleplay"
+  },
+  {
+    "id": "CIV-10",
+    "domain_code": "CIV",
+    "domain": "Civics & Law",
+    "skill": "Criminal justice basics",
+    "archetype": "Institutional",
+    "level_100_outcome": "Understands criminal process and rights.",
+    "assessment_modes": "quiz, artifact, roleplay"
+  },
+  {
+    "id": "CIV-11",
+    "domain_code": "CIV",
+    "domain": "Civics & Law",
+    "skill": "Immigration basics",
+    "archetype": "Institutional",
+    "level_100_outcome": "Navigates immigration processes.",
+    "assessment_modes": "quiz, artifact, roleplay"
+  },
+  {
+    "id": "CIV-12",
+    "domain_code": "CIV",
+    "domain": "Civics & Law",
+    "skill": "Data rights",
+    "archetype": "Institutional",
+    "level_100_outcome": "Exercises data rights across jurisdictions.",
+    "assessment_modes": "quiz, artifact, roleplay"
+  },
+  {
+    "id": "CIV-13",
+    "domain_code": "CIV",
+    "domain": "Civics & Law",
+    "skill": "Freedom of information",
+    "archetype": "Institutional",
+    "level_100_outcome": "Uses freedom-of-information law to obtain public records.",
+    "assessment_modes": "quiz, artifact, roleplay"
+  },
+  {
+    "id": "CIV-14",
+    "domain_code": "CIV",
+    "domain": "Civics & Law",
+    "skill": "Civic participation",
+    "archetype": "Institutional",
+    "level_100_outcome": "Organizes civic participation campaigns.",
+    "assessment_modes": "quiz, artifact, roleplay"
+  },
+  {
+    "id": "CIV-15",
+    "domain_code": "CIV",
+    "domain": "Civics & Law",
+    "skill": "Community organizing",
+    "archetype": "Institutional",
+    "level_100_outcome": "Builds durable community coalitions.",
+    "assessment_modes": "quiz, artifact, roleplay"
+  },
+  {
+    "id": "CIV-16",
+    "domain_code": "CIV",
+    "domain": "Civics & Law",
+    "skill": "Public budgeting",
+    "archetype": "Institutional",
+    "level_100_outcome": "Reads and influences public budgets.",
+    "assessment_modes": "quiz, artifact, roleplay"
+  },
+  {
+    "id": "CIV-17",
+    "domain_code": "CIV",
+    "domain": "Civics & Law",
+    "skill": "Policy analysis",
+    "archetype": "Institutional",
+    "level_100_outcome": "Analyzes policy with evidence and tradeoffs.",
+    "assessment_modes": "quiz, artifact, roleplay"
+  },
+  {
+    "id": "CIV-18",
+    "domain_code": "CIV",
+    "domain": "Civics & Law",
+    "skill": "Negotiating with institutions",
+    "archetype": "Institutional",
+    "level_100_outcome": "Negotiates effectively with bureaucracies.",
+    "assessment_modes": "quiz, artifact, roleplay"
+  },
+  {
+    "id": "CIV-19",
+    "domain_code": "CIV",
+    "domain": "Civics & Law",
+    "skill": "Emergency services",
+    "archetype": "Institutional",
+    "level_100_outcome": "Accesses and coordinates emergency services.",
+    "assessment_modes": "quiz, artifact, roleplay"
+  },
+  {
+    "id": "CIV-20",
+    "domain_code": "CIV",
+    "domain": "Civics & Law",
+    "skill": "Accessing benefits",
+    "archetype": "Institutional",
+    "level_100_outcome": "Navigates benefits systems for others.",
+    "assessment_modes": "quiz, artifact, roleplay"
+  },
+  {
+    "id": "CIV-21",
+    "domain_code": "CIV",
+    "domain": "Civics & Law",
+    "skill": "Disability rights",
+    "archetype": "Institutional",
+    "level_100_outcome": "Advocates for disability rights and accommodations.",
+    "assessment_modes": "quiz, artifact, roleplay"
+  },
+  {
+    "id": "CIV-22",
+    "domain_code": "CIV",
+    "domain": "Civics & Law",
+    "skill": "Indigenous & local law awareness",
+    "archetype": "Institutional",
+    "level_100_outcome": "Works respectfully with local and Indigenous law.",
+    "assessment_modes": "quiz, artifact, roleplay"
+  },
+  {
+    "id": "CIV-23",
+    "domain_code": "CIV",
+    "domain": "Civics & Law",
+    "skill": "International institutions",
+    "archetype": "Institutional",
+    "level_100_outcome": "Navigates international institutions.",
+    "assessment_modes": "quiz, artifact, roleplay"
+  },
+  {
+    "id": "CIV-24",
+    "domain_code": "CIV",
+    "domain": "Civics & Law",
+    "skill": "Anti-corruption",
+    "archetype": "Institutional",
+    "level_100_outcome": "Detects and resists corruption.",
+    "assessment_modes": "quiz, artifact, roleplay"
+  },
+  {
+    "id": "CIV-25",
+    "domain_code": "CIV",
+    "domain": "Civics & Law",
+    "skill": "Constitutional principles",
+    "archetype": "Institutional",
+    "level_100_outcome": "Applies constitutional principles to current issues.",
+    "assessment_modes": "quiz, artifact, roleplay"
+  },
+  {
+    "id": "WRK-01",
+    "domain_code": "WRK",
+    "domain": "Work & Career",
+    "skill": "Career exploration",
+    "archetype": "Institutional",
+    "level_100_outcome": "Maps career options against real constraints.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "WRK-02",
+    "domain_code": "WRK",
+    "domain": "Work & Career",
+    "skill": "Resume & profile",
+    "archetype": "Institutional",
+    "level_100_outcome": "Builds a resume that survives expert review.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "WRK-03",
+    "domain_code": "WRK",
+    "domain": "Work & Career",
+    "skill": "Job search",
+    "archetype": "Institutional",
+    "level_100_outcome": "Runs an effective job search.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "WRK-04",
+    "domain_code": "WRK",
+    "domain": "Work & Career",
+    "skill": "Networking",
+    "archetype": "Institutional",
+    "level_100_outcome": "Builds a network that creates opportunity.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "WRK-05",
+    "domain_code": "WRK",
+    "domain": "Work & Career",
+    "skill": "Interviewing",
+    "archetype": "Institutional",
+    "level_100_outcome": "Interviews at top-decile performance.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "WRK-06",
+    "domain_code": "WRK",
+    "domain": "Work & Career",
+    "skill": "Salary negotiation",
+    "archetype": "Institutional",
+    "level_100_outcome": "Negotiates compensation at market top.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "WRK-07",
+    "domain_code": "WRK",
+    "domain": "Work & Career",
+    "skill": "Onboarding fast",
+    "archetype": "Institutional",
+    "level_100_outcome": "Ramps into new roles in weeks.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "WRK-08",
+    "domain_code": "WRK",
+    "domain": "Work & Career",
+    "skill": "Time management",
+    "archetype": "Institutional",
+    "level_100_outcome": "Designs a time system that holds under load.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "WRK-09",
+    "domain_code": "WRK",
+    "domain": "Work & Career",
+    "skill": "Prioritization",
+    "archetype": "Institutional",
+    "level_100_outcome": "Prioritizes under conflicting demands.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "WRK-10",
+    "domain_code": "WRK",
+    "domain": "Work & Career",
+    "skill": "Remote work",
+    "archetype": "Institutional",
+    "level_100_outcome": "Excels in distributed work.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "WRK-11",
+    "domain_code": "WRK",
+    "domain": "Work & Career",
+    "skill": "Teamwork",
+    "archetype": "Institutional",
+    "level_100_outcome": "Improves team performance measurably.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "WRK-12",
+    "domain_code": "WRK",
+    "domain": "Work & Career",
+    "skill": "Giving & receiving feedback",
+    "archetype": "Institutional",
+    "level_100_outcome": "Builds feedback loops that change behavior.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "WRK-13",
+    "domain_code": "WRK",
+    "domain": "Work & Career",
+    "skill": "Managing up",
+    "archetype": "Institutional",
+    "level_100_outcome": "Manages up without politics.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "WRK-14",
+    "domain_code": "WRK",
+    "domain": "Work & Career",
+    "skill": "Project management",
+    "archetype": "Institutional",
+    "level_100_outcome": "Delivers complex projects predictably.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "WRK-15",
+    "domain_code": "WRK",
+    "domain": "Work & Career",
+    "skill": "Agile delivery",
+    "archetype": "Institutional",
+    "level_100_outcome": "Runs agile delivery without theater.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "WRK-16",
+    "domain_code": "WRK",
+    "domain": "Work & Career",
+    "skill": "Stakeholder management",
+    "archetype": "Institutional",
+    "level_100_outcome": "Aligns difficult stakeholders.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "WRK-17",
+    "domain_code": "WRK",
+    "domain": "Work & Career",
+    "skill": "Presentation skills",
+    "archetype": "Institutional",
+    "level_100_outcome": "Presents to executives with impact.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "WRK-18",
+    "domain_code": "WRK",
+    "domain": "Work & Career",
+    "skill": "Workplace writing",
+    "archetype": "Institutional",
+    "level_100_outcome": "Writes workplace documents that drive action.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "WRK-19",
+    "domain_code": "WRK",
+    "domain": "Work & Career",
+    "skill": "Performance reviews",
+    "archetype": "Institutional",
+    "level_100_outcome": "Runs fair, useful performance reviews.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "WRK-20",
+    "domain_code": "WRK",
+    "domain": "Work & Career",
+    "skill": "Career pivots",
+    "archetype": "Institutional",
+    "level_100_outcome": "Executes a successful career pivot.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "WRK-21",
+    "domain_code": "WRK",
+    "domain": "Work & Career",
+    "skill": "Freelancing",
+    "archetype": "Institutional",
+    "level_100_outcome": "Runs a sustainable freelance practice.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "WRK-22",
+    "domain_code": "WRK",
+    "domain": "Work & Career",
+    "skill": "Consulting",
+    "archetype": "Institutional",
+    "level_100_outcome": "Delivers consulting engagements that stick.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "WRK-23",
+    "domain_code": "WRK",
+    "domain": "Work & Career",
+    "skill": "Leadership fundamentals",
+    "archetype": "Institutional",
+    "level_100_outcome": "Leads teams with trust and clarity.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "WRK-24",
+    "domain_code": "WRK",
+    "domain": "Work & Career",
+    "skill": "Managing managers",
+    "archetype": "Institutional",
+    "level_100_outcome": "Develops managers who develop others.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "WRK-25",
+    "domain_code": "WRK",
+    "domain": "Work & Career",
+    "skill": "Executive presence",
+    "archetype": "Institutional",
+    "level_100_outcome": "Operates with executive-level presence.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "BIZ-01",
+    "domain_code": "BIZ",
+    "domain": "Business & Entrepreneurship",
+    "skill": "Opportunity discovery",
+    "archetype": "Entrepreneurial",
+    "level_100_outcome": "Finds opportunities others miss.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "BIZ-02",
+    "domain_code": "BIZ",
+    "domain": "Business & Entrepreneurship",
+    "skill": "Customer discovery",
+    "archetype": "Entrepreneurial",
+    "level_100_outcome": "Runs discovery that changes product direction.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "BIZ-03",
+    "domain_code": "BIZ",
+    "domain": "Business & Entrepreneurship",
+    "skill": "Market sizing",
+    "archetype": "Entrepreneurial",
+    "level_100_outcome": "Sizes markets with defensible methods.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "BIZ-04",
+    "domain_code": "BIZ",
+    "domain": "Business & Entrepreneurship",
+    "skill": "Value proposition",
+    "archetype": "Entrepreneurial",
+    "level_100_outcome": "Crafts value propositions that convert.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "BIZ-05",
+    "domain_code": "BIZ",
+    "domain": "Business & Entrepreneurship",
+    "skill": "Business models",
+    "archetype": "Entrepreneurial",
+    "level_100_outcome": "Designs business models that scale.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "BIZ-06",
+    "domain_code": "BIZ",
+    "domain": "Business & Entrepreneurship",
+    "skill": "Pricing strategy",
+    "archetype": "Entrepreneurial",
+    "level_100_outcome": "Prices for value and growth.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "BIZ-07",
+    "domain_code": "BIZ",
+    "domain": "Business & Entrepreneurship",
+    "skill": "Marketing fundamentals",
+    "archetype": "Entrepreneurial",
+    "level_100_outcome": "Builds marketing that compounds.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "BIZ-08",
+    "domain_code": "BIZ",
+    "domain": "Business & Entrepreneurship",
+    "skill": "Brand building",
+    "archetype": "Entrepreneurial",
+    "level_100_outcome": "Builds brands with durable meaning.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "BIZ-09",
+    "domain_code": "BIZ",
+    "domain": "Business & Entrepreneurship",
+    "skill": "Sales systems",
+    "archetype": "Entrepreneurial",
+    "level_100_outcome": "Builds sales systems that scale.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "BIZ-10",
+    "domain_code": "BIZ",
+    "domain": "Business & Entrepreneurship",
+    "skill": "Growth loops",
+    "archetype": "Entrepreneurial",
+    "level_100_outcome": "Designs growth loops with healthy economics.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "BIZ-11",
+    "domain_code": "BIZ",
+    "domain": "Business & Entrepreneurship",
+    "skill": "Operations design",
+    "archetype": "Entrepreneurial",
+    "level_100_outcome": "Designs operations for reliability and scale.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "BIZ-12",
+    "domain_code": "BIZ",
+    "domain": "Business & Entrepreneurship",
+    "skill": "Supply chain",
+    "archetype": "Entrepreneurial",
+    "level_100_outcome": "Builds resilient supply chains.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "BIZ-13",
+    "domain_code": "BIZ",
+    "domain": "Business & Entrepreneurship",
+    "skill": "Hiring & culture",
+    "archetype": "Entrepreneurial",
+    "level_100_outcome": "Hires and builds culture at scale.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "BIZ-14",
+    "domain_code": "BIZ",
+    "domain": "Business & Entrepreneurship",
+    "skill": "Fundraising",
+    "archetype": "Entrepreneurial",
+    "level_100_outcome": "Raises capital on strong terms.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "BIZ-15",
+    "domain_code": "BIZ",
+    "domain": "Business & Entrepreneurship",
+    "skill": "Financial modeling",
+    "archetype": "Entrepreneurial",
+    "level_100_outcome": "Builds models investors trust.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "BIZ-16",
+    "domain_code": "BIZ",
+    "domain": "Business & Entrepreneurship",
+    "skill": "Legal formation",
+    "archetype": "Entrepreneurial",
+    "level_100_outcome": "Forms and structures companies correctly.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "BIZ-17",
+    "domain_code": "BIZ",
+    "domain": "Business & Entrepreneurship",
+    "skill": "Product management",
+    "archetype": "Entrepreneurial",
+    "level_100_outcome": "Ships products users love.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "BIZ-18",
+    "domain_code": "BIZ",
+    "domain": "Business & Entrepreneurship",
+    "skill": "Product analytics",
+    "archetype": "Entrepreneurial",
+    "level_100_outcome": "Uses analytics to drive product decisions.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "BIZ-19",
+    "domain_code": "BIZ",
+    "domain": "Business & Entrepreneurship",
+    "skill": "Partnerships",
+    "archetype": "Entrepreneurial",
+    "level_100_outcome": "Builds partnerships that create leverage.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "BIZ-20",
+    "domain_code": "BIZ",
+    "domain": "Business & Entrepreneurship",
+    "skill": "International expansion",
+    "archetype": "Entrepreneurial",
+    "level_100_outcome": "Expands internationally with local fit.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "BIZ-21",
+    "domain_code": "BIZ",
+    "domain": "Business & Entrepreneurship",
+    "skill": "Turnaround management",
+    "archetype": "Entrepreneurial",
+    "level_100_outcome": "Turns around distressed businesses.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "BIZ-22",
+    "domain_code": "BIZ",
+    "domain": "Business & Entrepreneurship",
+    "skill": "Mergers & acquisitions basics",
+    "archetype": "Entrepreneurial",
+    "level_100_outcome": "Evaluates and integrates acquisitions.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "BIZ-23",
+    "domain_code": "BIZ",
+    "domain": "Business & Entrepreneurship",
+    "skill": "Governance",
+    "archetype": "Entrepreneurial",
+    "level_100_outcome": "Builds governance that earns trust.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "BIZ-24",
+    "domain_code": "BIZ",
+    "domain": "Business & Entrepreneurship",
+    "skill": "Social enterprise",
+    "archetype": "Entrepreneurial",
+    "level_100_outcome": "Runs a social enterprise with real impact.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "BIZ-25",
+    "domain_code": "BIZ",
+    "domain": "Business & Entrepreneurship",
+    "skill": "Scaling playbook",
+    "archetype": "Entrepreneurial",
+    "level_100_outcome": "Scales an organization without breaking it.",
+    "assessment_modes": "quiz, artifact, sim"
+  },
+  {
+    "id": "ART-01",
+    "domain_code": "ART",
+    "domain": "Arts & Design",
+    "skill": "Visual literacy",
+    "archetype": "Creative",
+    "level_100_outcome": "Reads visual culture with expert nuance.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "ART-02",
+    "domain_code": "ART",
+    "domain": "Arts & Design",
+    "skill": "Drawing fundamentals",
+    "archetype": "Creative",
+    "level_100_outcome": "Draws confidently from observation and imagination.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "ART-03",
+    "domain_code": "ART",
+    "domain": "Arts & Design",
+    "skill": "Color theory",
+    "archetype": "Creative",
+    "level_100_outcome": "Uses color with expert control.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "ART-04",
+    "domain_code": "ART",
+    "domain": "Arts & Design",
+    "skill": "Composition",
+    "archetype": "Creative",
+    "level_100_outcome": "Composes images that hold attention.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "ART-05",
+    "domain_code": "ART",
+    "domain": "Arts & Design",
+    "skill": "Photography",
+    "archetype": "Creative",
+    "level_100_outcome": "Produces photographs at publication quality.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "ART-06",
+    "domain_code": "ART",
+    "domain": "Arts & Design",
+    "skill": "Graphic design",
+    "archetype": "Creative",
+    "level_100_outcome": "Designs identities and systems at professional level.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "ART-07",
+    "domain_code": "ART",
+    "domain": "Arts & Design",
+    "skill": "Typography",
+    "archetype": "Creative",
+    "level_100_outcome": "Sets type at expert level.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "ART-08",
+    "domain_code": "ART",
+    "domain": "Arts & Design",
+    "skill": "UX research",
+    "archetype": "Creative",
+    "level_100_outcome": "Runs research that changes product decisions.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "ART-09",
+    "domain_code": "ART",
+    "domain": "Arts & Design",
+    "skill": "UX/UI design",
+    "archetype": "Creative",
+    "level_100_outcome": "Designs accessible products at scale.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "ART-10",
+    "domain_code": "ART",
+    "domain": "Arts & Design",
+    "skill": "Design systems",
+    "archetype": "Creative",
+    "level_100_outcome": "Builds design systems used by large teams.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "ART-11",
+    "domain_code": "ART",
+    "domain": "Arts & Design",
+    "skill": "Illustration",
+    "archetype": "Creative",
+    "level_100_outcome": "Illustrates at publication quality.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "ART-12",
+    "domain_code": "ART",
+    "domain": "Arts & Design",
+    "skill": "3D modeling",
+    "archetype": "Creative",
+    "level_100_outcome": "Models production-ready 3D assets.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "ART-13",
+    "domain_code": "ART",
+    "domain": "Arts & Design",
+    "skill": "Animation",
+    "archetype": "Creative",
+    "level_100_outcome": "Animates at studio quality.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "ART-14",
+    "domain_code": "ART",
+    "domain": "Arts & Design",
+    "skill": "Video editing",
+    "archetype": "Creative",
+    "level_100_outcome": "Edits video that holds attention.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "ART-15",
+    "domain_code": "ART",
+    "domain": "Arts & Design",
+    "skill": "Sound design",
+    "archetype": "Creative",
+    "level_100_outcome": "Designs sound for immersive media.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "ART-16",
+    "domain_code": "ART",
+    "domain": "Arts & Design",
+    "skill": "Creative writing",
+    "archetype": "Creative",
+    "level_100_outcome": "Writes fiction or nonfiction of publishable quality.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "ART-17",
+    "domain_code": "ART",
+    "domain": "Arts & Design",
+    "skill": "Poetry",
+    "archetype": "Creative",
+    "level_100_outcome": "Writes poetry of publishable quality.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "ART-18",
+    "domain_code": "ART",
+    "domain": "Arts & Design",
+    "skill": "Screenwriting",
+    "archetype": "Creative",
+    "level_100_outcome": "Writes screenplays at professional standard.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "ART-19",
+    "domain_code": "ART",
+    "domain": "Arts & Design",
+    "skill": "Game design",
+    "archetype": "Creative",
+    "level_100_outcome": "Designs games with deep, fair systems.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "ART-20",
+    "domain_code": "ART",
+    "domain": "Arts & Design",
+    "skill": "Fashion design",
+    "archetype": "Creative",
+    "level_100_outcome": "Designs collections with commercial and artistic merit.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "ART-21",
+    "domain_code": "ART",
+    "domain": "Arts & Design",
+    "skill": "Industrial design",
+    "archetype": "Creative",
+    "level_100_outcome": "Designs products that are beautiful and manufacturable.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "ART-22",
+    "domain_code": "ART",
+    "domain": "Arts & Design",
+    "skill": "Architecture literacy",
+    "archetype": "Creative",
+    "level_100_outcome": "Reads and critiques architecture with expertise.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "ART-23",
+    "domain_code": "ART",
+    "domain": "Arts & Design",
+    "skill": "Exhibition design",
+    "archetype": "Creative",
+    "level_100_outcome": "Designs exhibitions that move visitors.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "ART-24",
+    "domain_code": "ART",
+    "domain": "Arts & Design",
+    "skill": "Creative direction",
+    "archetype": "Creative",
+    "level_100_outcome": "Leads creative direction for major brands.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "ART-25",
+    "domain_code": "ART",
+    "domain": "Arts & Design",
+    "skill": "Portfolio & client work",
+    "archetype": "Creative",
+    "level_100_outcome": "Wins and delivers high-value creative work.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "MUS-01",
+    "domain_code": "MUS",
+    "domain": "Music & Performance",
+    "skill": "Rhythm",
+    "archetype": "Creative",
+    "level_100_outcome": "Keeps complex rhythm with expert precision.",
+    "assessment_modes": "quiz, performance, artifact"
+  },
+  {
+    "id": "MUS-02",
+    "domain_code": "MUS",
+    "domain": "Music & Performance",
+    "skill": "Ear training",
+    "archetype": "Creative",
+    "level_100_outcome": "Transcribes complex music by ear.",
+    "assessment_modes": "quiz, performance, artifact"
+  },
+  {
+    "id": "MUS-03",
+    "domain_code": "MUS",
+    "domain": "Music & Performance",
+    "skill": "Singing",
+    "archetype": "Creative",
+    "level_100_outcome": "Performs at professional level.",
+    "assessment_modes": "quiz, performance, artifact"
+  },
+  {
+    "id": "MUS-04",
+    "domain_code": "MUS",
+    "domain": "Music & Performance",
+    "skill": "Piano & keyboard",
+    "archetype": "Creative",
+    "level_100_outcome": "Performs at advanced level.",
+    "assessment_modes": "quiz, performance, artifact"
+  },
+  {
+    "id": "MUS-05",
+    "domain_code": "MUS",
+    "domain": "Music & Performance",
+    "skill": "Guitar",
+    "archetype": "Creative",
+    "level_100_outcome": "Performs at advanced level.",
+    "assessment_modes": "quiz, performance, artifact"
+  },
+  {
+    "id": "MUS-06",
+    "domain_code": "MUS",
+    "domain": "Music & Performance",
+    "skill": "Songwriting",
+    "archetype": "Creative",
+    "level_100_outcome": "Writes songs with lasting impact.",
+    "assessment_modes": "quiz, performance, artifact"
+  },
+  {
+    "id": "MUS-07",
+    "domain_code": "MUS",
+    "domain": "Music & Performance",
+    "skill": "Music production",
+    "archetype": "Creative",
+    "level_100_outcome": "Produces releases at commercial quality.",
+    "assessment_modes": "quiz, performance, artifact"
+  },
+  {
+    "id": "MUS-08",
+    "domain_code": "MUS",
+    "domain": "Music & Performance",
+    "skill": "Mixing",
+    "archetype": "Creative",
+    "level_100_outcome": "Mixes at professional standard.",
+    "assessment_modes": "quiz, performance, artifact"
+  },
+  {
+    "id": "MUS-09",
+    "domain_code": "MUS",
+    "domain": "Music & Performance",
+    "skill": "Mastering",
+    "archetype": "Creative",
+    "level_100_outcome": "Masters for commercial release.",
+    "assessment_modes": "quiz, performance, artifact"
+  },
+  {
+    "id": "MUS-10",
+    "domain_code": "MUS",
+    "domain": "Music & Performance",
+    "skill": "Live performance",
+    "archetype": "Creative",
+    "level_100_outcome": "Performs live with command.",
+    "assessment_modes": "quiz, performance, artifact"
+  },
+  {
+    "id": "MUS-11",
+    "domain_code": "MUS",
+    "domain": "Music & Performance",
+    "skill": "Improvisation",
+    "archetype": "Creative",
+    "level_100_outcome": "Improvises fluently across styles.",
+    "assessment_modes": "quiz, performance, artifact"
+  },
+  {
+    "id": "MUS-12",
+    "domain_code": "MUS",
+    "domain": "Music & Performance",
+    "skill": "Music theory",
+    "archetype": "Creative",
+    "level_100_outcome": "Analyzes and composes with advanced theory.",
+    "assessment_modes": "quiz, performance, artifact"
+  },
+  {
+    "id": "MUS-13",
+    "domain_code": "MUS",
+    "domain": "Music & Performance",
+    "skill": "Sight reading",
+    "archetype": "Creative",
+    "level_100_outcome": "Sight-reads complex scores.",
+    "assessment_modes": "quiz, performance, artifact"
+  },
+  {
+    "id": "MUS-14",
+    "domain_code": "MUS",
+    "domain": "Music & Performance",
+    "skill": "Composition",
+    "archetype": "Creative",
+    "level_100_outcome": "Composes original works of significance.",
+    "assessment_modes": "quiz, performance, artifact"
+  },
+  {
+    "id": "MUS-15",
+    "domain_code": "MUS",
+    "domain": "Music & Performance",
+    "skill": "Conducting",
+    "archetype": "Creative",
+    "level_100_outcome": "Conducts ensembles at professional level.",
+    "assessment_modes": "quiz, performance, artifact"
+  },
+  {
+    "id": "MUS-16",
+    "domain_code": "MUS",
+    "domain": "Music & Performance",
+    "skill": "Acting",
+    "archetype": "Creative",
+    "level_100_outcome": "Acts at professional level.",
+    "assessment_modes": "quiz, performance, artifact"
+  },
+  {
+    "id": "MUS-17",
+    "domain_code": "MUS",
+    "domain": "Music & Performance",
+    "skill": "Improv theater",
+    "archetype": "Creative",
+    "level_100_outcome": "Performs improv at professional level.",
+    "assessment_modes": "quiz, performance, artifact"
+  },
+  {
+    "id": "MUS-18",
+    "domain_code": "MUS",
+    "domain": "Music & Performance",
+    "skill": "Dance",
+    "archetype": "Creative",
+    "level_100_outcome": "Dances at professional level.",
+    "assessment_modes": "quiz, performance, artifact"
+  },
+  {
+    "id": "MUS-19",
+    "domain_code": "MUS",
+    "domain": "Music & Performance",
+    "skill": "Stagecraft",
+    "archetype": "Creative",
+    "level_100_outcome": "Runs stagecraft for complex shows.",
+    "assessment_modes": "quiz, performance, artifact"
+  },
+  {
+    "id": "MUS-20",
+    "domain_code": "MUS",
+    "domain": "Music & Performance",
+    "skill": "Performance anxiety",
+    "archetype": "Creative",
+    "level_100_outcome": "Performs reliably under pressure.",
+    "assessment_modes": "quiz, performance, artifact"
+  },
+  {
+    "id": "MUS-21",
+    "domain_code": "MUS",
+    "domain": "Music & Performance",
+    "skill": "Teaching music",
+    "archetype": "Creative",
+    "level_100_outcome": "Teaches music with proven student outcomes.",
+    "assessment_modes": "quiz, performance, artifact"
+  },
+  {
+    "id": "MUS-22",
+    "domain_code": "MUS",
+    "domain": "Music & Performance",
+    "skill": "Music business",
+    "archetype": "Creative",
+    "level_100_outcome": "Navigates music business and rights.",
+    "assessment_modes": "quiz, performance, artifact"
+  },
+  {
+    "id": "MUS-23",
+    "domain_code": "MUS",
+    "domain": "Music & Performance",
+    "skill": "Audio engineering",
+    "archetype": "Creative",
+    "level_100_outcome": "Engineers audio for demanding rooms.",
+    "assessment_modes": "quiz, performance, artifact"
+  },
+  {
+    "id": "MUS-24",
+    "domain_code": "MUS",
+    "domain": "Music & Performance",
+    "skill": "Sound for film",
+    "archetype": "Creative",
+    "level_100_outcome": "Designs sound for film at professional level.",
+    "assessment_modes": "quiz, performance, artifact"
+  },
+  {
+    "id": "MUS-25",
+    "domain_code": "MUS",
+    "domain": "Music & Performance",
+    "skill": "Collaborative performance",
+    "archetype": "Creative",
+    "level_100_outcome": "Leads collaborative performances.",
+    "assessment_modes": "quiz, performance, artifact"
+  },
+  {
+    "id": "MED-01",
+    "domain_code": "MED",
+    "domain": "Media & Storytelling",
+    "skill": "Media literacy",
+    "archetype": "Creative",
+    "level_100_outcome": "Detects manipulation across media.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "MED-02",
+    "domain_code": "MED",
+    "domain": "Media & Storytelling",
+    "skill": "Fact-checking",
+    "archetype": "Creative",
+    "level_100_outcome": "Fact-checks at newsroom standard.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "MED-03",
+    "domain_code": "MED",
+    "domain": "Media & Storytelling",
+    "skill": "Interviewing for media",
+    "archetype": "Creative",
+    "level_100_outcome": "Conducts interviews that reveal truth.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "MED-04",
+    "domain_code": "MED",
+    "domain": "Media & Storytelling",
+    "skill": "Podcasting",
+    "archetype": "Creative",
+    "level_100_outcome": "Produces podcasts at professional quality.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "MED-05",
+    "domain_code": "MED",
+    "domain": "Media & Storytelling",
+    "skill": "Video production",
+    "archetype": "Creative",
+    "level_100_outcome": "Produces video at broadcast quality.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "MED-06",
+    "domain_code": "MED",
+    "domain": "Media & Storytelling",
+    "skill": "YouTube strategy",
+    "archetype": "Creative",
+    "level_100_outcome": "Builds channels with durable audiences.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "MED-07",
+    "domain_code": "MED",
+    "domain": "Media & Storytelling",
+    "skill": "Social media",
+    "archetype": "Creative",
+    "level_100_outcome": "Runs social media with judgment and safety.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "MED-08",
+    "domain_code": "MED",
+    "domain": "Media & Storytelling",
+    "skill": "Newsletter writing",
+    "archetype": "Creative",
+    "level_100_outcome": "Writes newsletters people rely on.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "MED-09",
+    "domain_code": "MED",
+    "domain": "Media & Storytelling",
+    "skill": "Copywriting",
+    "archetype": "Creative",
+    "level_100_outcome": "Writes copy that converts ethically.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "MED-10",
+    "domain_code": "MED",
+    "domain": "Media & Storytelling",
+    "skill": "Content strategy",
+    "archetype": "Creative",
+    "level_100_outcome": "Builds content strategy that compounds.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "MED-11",
+    "domain_code": "MED",
+    "domain": "Media & Storytelling",
+    "skill": "SEO",
+    "archetype": "Creative",
+    "level_100_outcome": "Wins search without gaming.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "MED-12",
+    "domain_code": "MED",
+    "domain": "Media & Storytelling",
+    "skill": "Community management",
+    "archetype": "Creative",
+    "level_100_outcome": "Builds healthy communities at scale.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "MED-13",
+    "domain_code": "MED",
+    "domain": "Media & Storytelling",
+    "skill": "Live streaming",
+    "archetype": "Creative",
+    "level_100_outcome": "Runs live streams with production quality.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "MED-14",
+    "domain_code": "MED",
+    "domain": "Media & Storytelling",
+    "skill": "Documentary storytelling",
+    "archetype": "Creative",
+    "level_100_outcome": "Tells documentary stories with rigor.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "MED-15",
+    "domain_code": "MED",
+    "domain": "Media & Storytelling",
+    "skill": "Data journalism",
+    "archetype": "Creative",
+    "level_100_outcome": "Turns data into public-interest stories.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "MED-16",
+    "domain_code": "MED",
+    "domain": "Media & Storytelling",
+    "skill": "Investigative research",
+    "archetype": "Creative",
+    "level_100_outcome": "Runs investigations that withstand scrutiny.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "MED-17",
+    "domain_code": "MED",
+    "domain": "Media & Storytelling",
+    "skill": "Crisis PR",
+    "archetype": "Creative",
+    "level_100_outcome": "Restores trust in crises.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "MED-18",
+    "domain_code": "MED",
+    "domain": "Media & Storytelling",
+    "skill": "Brand storytelling",
+    "archetype": "Creative",
+    "level_100_outcome": "Builds brand narratives that endure.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "MED-19",
+    "domain_code": "MED",
+    "domain": "Media & Storytelling",
+    "skill": "Audience analytics",
+    "archetype": "Creative",
+    "level_100_outcome": "Uses analytics without chasing vanity.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "MED-20",
+    "domain_code": "MED",
+    "domain": "Media & Storytelling",
+    "skill": "Monetization",
+    "archetype": "Creative",
+    "level_100_outcome": "Monetizes media without destroying trust.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "MED-21",
+    "domain_code": "MED",
+    "domain": "Media & Storytelling",
+    "skill": "Ethics & consent",
+    "archetype": "Creative",
+    "level_100_outcome": "Applies consent and ethics in media.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "MED-22",
+    "domain_code": "MED",
+    "domain": "Media & Storytelling",
+    "skill": "Misinformation response",
+    "archetype": "Creative",
+    "level_100_outcome": "Counters misinformation effectively.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "MED-23",
+    "domain_code": "MED",
+    "domain": "Media & Storytelling",
+    "skill": "Visual storytelling",
+    "archetype": "Creative",
+    "level_100_outcome": "Tells stories visually with impact.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "MED-24",
+    "domain_code": "MED",
+    "domain": "Media & Storytelling",
+    "skill": "Interactive media",
+    "archetype": "Creative",
+    "level_100_outcome": "Builds interactive stories.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "MED-25",
+    "domain_code": "MED",
+    "domain": "Media & Storytelling",
+    "skill": "Media business",
+    "archetype": "Creative",
+    "level_100_outcome": "Runs a sustainable media business.",
+    "assessment_modes": "quiz, artifact, portfolio"
+  },
+  {
+    "id": "SPT-01",
+    "domain_code": "SPT",
+    "domain": "Sports & Movement",
+    "skill": "Walking & posture",
+    "archetype": "Physical",
+    "level_100_outcome": "Walks and stands with efficient posture.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "SPT-02",
+    "domain_code": "SPT",
+    "domain": "Sports & Movement",
+    "skill": "Running",
+    "archetype": "Physical",
+    "level_100_outcome": "Runs with efficient form and pacing.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "SPT-03",
+    "domain_code": "SPT",
+    "domain": "Sports & Movement",
+    "skill": "Cycling",
+    "archetype": "Physical",
+    "level_100_outcome": "Cycles safely and efficiently.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "SPT-04",
+    "domain_code": "SPT",
+    "domain": "Sports & Movement",
+    "skill": "Swimming",
+    "archetype": "Physical",
+    "level_100_outcome": "Swims multiple strokes with confidence.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "SPT-05",
+    "domain_code": "SPT",
+    "domain": "Sports & Movement",
+    "skill": "Strength & conditioning",
+    "archetype": "Physical",
+    "level_100_outcome": "Programs strength for performance.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "SPT-06",
+    "domain_code": "SPT",
+    "domain": "Sports & Movement",
+    "skill": "Mobility",
+    "archetype": "Physical",
+    "level_100_outcome": "Maintains full functional mobility.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "SPT-07",
+    "domain_code": "SPT",
+    "domain": "Sports & Movement",
+    "skill": "Balance & coordination",
+    "archetype": "Physical",
+    "level_100_outcome": "Trains balance and coordination.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "SPT-08",
+    "domain_code": "SPT",
+    "domain": "Sports & Movement",
+    "skill": "Sports rules",
+    "archetype": "Physical",
+    "level_100_outcome": "Knows and applies rules accurately.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "SPT-09",
+    "domain_code": "SPT",
+    "domain": "Sports & Movement",
+    "skill": "Team sports",
+    "archetype": "Physical",
+    "level_100_outcome": "Plays team sports with tactical awareness.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "SPT-10",
+    "domain_code": "SPT",
+    "domain": "Sports & Movement",
+    "skill": "Racquet sports",
+    "archetype": "Physical",
+    "level_100_outcome": "Plays racquet sports at competitive level.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "SPT-11",
+    "domain_code": "SPT",
+    "domain": "Sports & Movement",
+    "skill": "Martial arts",
+    "archetype": "Physical",
+    "level_100_outcome": "Practices martial arts with control.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "SPT-12",
+    "domain_code": "SPT",
+    "domain": "Sports & Movement",
+    "skill": "Climbing",
+    "archetype": "Physical",
+    "level_100_outcome": "Climbs safely at advanced level.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "SPT-13",
+    "domain_code": "SPT",
+    "domain": "Sports & Movement",
+    "skill": "Hiking",
+    "archetype": "Physical",
+    "level_100_outcome": "Hikes safely in varied terrain.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "SPT-14",
+    "domain_code": "SPT",
+    "domain": "Sports & Movement",
+    "skill": "Skiing & snowboarding",
+    "archetype": "Physical",
+    "level_100_outcome": "Skis or snowboards with control.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "SPT-15",
+    "domain_code": "SPT",
+    "domain": "Sports & Movement",
+    "skill": "Rowing",
+    "archetype": "Physical",
+    "level_100_outcome": "Rows with efficient technique.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "SPT-16",
+    "domain_code": "SPT",
+    "domain": "Sports & Movement",
+    "skill": "Dance fitness",
+    "archetype": "Physical",
+    "level_100_outcome": "Leads dance fitness safely.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "SPT-17",
+    "domain_code": "SPT",
+    "domain": "Sports & Movement",
+    "skill": "Yoga",
+    "archetype": "Physical",
+    "level_100_outcome": "Practices yoga with alignment and breath.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "SPT-18",
+    "domain_code": "SPT",
+    "domain": "Sports & Movement",
+    "skill": "Pilates",
+    "archetype": "Physical",
+    "level_100_outcome": "Practices Pilates with control.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "SPT-19",
+    "domain_code": "SPT",
+    "domain": "Sports & Movement",
+    "skill": "Coaching",
+    "archetype": "Physical",
+    "level_100_outcome": "Coaches athletes with proven improvement.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "SPT-20",
+    "domain_code": "SPT",
+    "domain": "Sports & Movement",
+    "skill": "Sports nutrition",
+    "archetype": "Physical",
+    "level_100_outcome": "Fuels athletes for performance.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "SPT-21",
+    "domain_code": "SPT",
+    "domain": "Sports & Movement",
+    "skill": "Injury prevention",
+    "archetype": "Physical",
+    "level_100_outcome": "Prevents common sports injuries.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "SPT-22",
+    "domain_code": "SPT",
+    "domain": "Sports & Movement",
+    "skill": "Recovery",
+    "archetype": "Physical",
+    "level_100_outcome": "Designs recovery protocols.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "SPT-23",
+    "domain_code": "SPT",
+    "domain": "Sports & Movement",
+    "skill": "Sports psychology",
+    "archetype": "Physical",
+    "level_100_outcome": "Builds mental performance skills.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "SPT-24",
+    "domain_code": "SPT",
+    "domain": "Sports & Movement",
+    "skill": "Officiating",
+    "archetype": "Physical",
+    "level_100_outcome": "Officiates fairly under pressure.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "SPT-25",
+    "domain_code": "SPT",
+    "domain": "Sports & Movement",
+    "skill": "Athletic program design",
+    "archetype": "Physical",
+    "level_100_outcome": "Designs season-long athletic programs.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "OUT-01",
+    "domain_code": "OUT",
+    "domain": "Outdoors & Survival",
+    "skill": "Navigation",
+    "archetype": "Physical",
+    "level_100_outcome": "Navigates with map, compass, and GPS.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "OUT-02",
+    "domain_code": "OUT",
+    "domain": "Outdoors & Survival",
+    "skill": "Map & compass",
+    "archetype": "Physical",
+    "level_100_outcome": "Reads terrain and maps precisely.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "OUT-03",
+    "domain_code": "OUT",
+    "domain": "Outdoors & Survival",
+    "skill": "Weather reading",
+    "archetype": "Physical",
+    "level_100_outcome": "Reads weather signs and forecasts.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "OUT-04",
+    "domain_code": "OUT",
+    "domain": "Outdoors & Survival",
+    "skill": "Camping",
+    "archetype": "Physical",
+    "level_100_outcome": "Camps safely in varied conditions.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "OUT-05",
+    "domain_code": "OUT",
+    "domain": "Outdoors & Survival",
+    "skill": "Fire safety",
+    "archetype": "Physical",
+    "level_100_outcome": "Builds and manages fire safely.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "OUT-06",
+    "domain_code": "OUT",
+    "domain": "Outdoors & Survival",
+    "skill": "Water purification",
+    "archetype": "Physical",
+    "level_100_outcome": "Makes water safe in the field.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "OUT-07",
+    "domain_code": "OUT",
+    "domain": "Outdoors & Survival",
+    "skill": "Foraging safety",
+    "archetype": "Physical",
+    "level_100_outcome": "Forages without dangerous mistakes.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "OUT-08",
+    "domain_code": "OUT",
+    "domain": "Outdoors & Survival",
+    "skill": "Fishing",
+    "archetype": "Physical",
+    "level_100_outcome": "Fishes legally and safely.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "OUT-09",
+    "domain_code": "OUT",
+    "domain": "Outdoors & Survival",
+    "skill": "Hunting safety",
+    "archetype": "Physical",
+    "level_100_outcome": "Handles hunting safely and ethically.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "OUT-10",
+    "domain_code": "OUT",
+    "domain": "Outdoors & Survival",
+    "skill": "Wilderness first aid",
+    "archetype": "Physical",
+    "level_100_outcome": "Handles wilderness medical emergencies.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "OUT-11",
+    "domain_code": "OUT",
+    "domain": "Outdoors & Survival",
+    "skill": "Search & rescue basics",
+    "archetype": "Physical",
+    "level_100_outcome": "Supports search and rescue.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "OUT-12",
+    "domain_code": "OUT",
+    "domain": "Outdoors & Survival",
+    "skill": "Shelter building",
+    "archetype": "Physical",
+    "level_100_outcome": "Builds emergency shelter.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "OUT-13",
+    "domain_code": "OUT",
+    "domain": "Outdoors & Survival",
+    "skill": "Knots & rigging",
+    "archetype": "Physical",
+    "level_100_outcome": "Ties and rigs safely.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "OUT-14",
+    "domain_code": "OUT",
+    "domain": "Outdoors & Survival",
+    "skill": "Leave no trace",
+    "archetype": "Physical",
+    "level_100_outcome": "Minimizes environmental impact.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "OUT-15",
+    "domain_code": "OUT",
+    "domain": "Outdoors & Survival",
+    "skill": "Wildlife safety",
+    "archetype": "Physical",
+    "level_100_outcome": "Responds to wildlife safely.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "OUT-16",
+    "domain_code": "OUT",
+    "domain": "Outdoors & Survival",
+    "skill": "Emergency signaling",
+    "archetype": "Physical",
+    "level_100_outcome": "Signals for rescue effectively.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "OUT-17",
+    "domain_code": "OUT",
+    "domain": "Outdoors & Survival",
+    "skill": "Off-grid power",
+    "archetype": "Physical",
+    "level_100_outcome": "Sizes off-grid power.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "OUT-18",
+    "domain_code": "OUT",
+    "domain": "Outdoors & Survival",
+    "skill": "Food storage",
+    "archetype": "Physical",
+    "level_100_outcome": "Stores food safely in the field.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "OUT-19",
+    "domain_code": "OUT",
+    "domain": "Outdoors & Survival",
+    "skill": "Risk assessment",
+    "archetype": "Physical",
+    "level_100_outcome": "Assesses outdoor risk rigorously.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "OUT-20",
+    "domain_code": "OUT",
+    "domain": "Outdoors & Survival",
+    "skill": "Trip planning",
+    "archetype": "Physical",
+    "level_100_outcome": "Plans trips with contingencies.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "OUT-21",
+    "domain_code": "OUT",
+    "domain": "Outdoors & Survival",
+    "skill": "Urban survival",
+    "archetype": "Physical",
+    "level_100_outcome": "Handles urban emergencies.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "OUT-22",
+    "domain_code": "OUT",
+    "domain": "Outdoors & Survival",
+    "skill": "Disaster preparedness",
+    "archetype": "Physical",
+    "level_100_outcome": "Prepares for disasters.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "OUT-23",
+    "domain_code": "OUT",
+    "domain": "Outdoors & Survival",
+    "skill": "Water safety",
+    "archetype": "Physical",
+    "level_100_outcome": "Prevents and responds to water emergencies.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "OUT-24",
+    "domain_code": "OUT",
+    "domain": "Outdoors & Survival",
+    "skill": "High-altitude awareness",
+    "archetype": "Physical",
+    "level_100_outcome": "Recognizes altitude illness.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "OUT-25",
+    "domain_code": "OUT",
+    "domain": "Outdoors & Survival",
+    "skill": "Expedition leadership",
+    "archetype": "Physical",
+    "level_100_outcome": "Leads expeditions safely.",
+    "assessment_modes": "practical, sim, artifact"
+  },
+  {
+    "id": "REL-01",
+    "domain_code": "REL",
+    "domain": "Relationships & Parenting",
+    "skill": "Attachment basics",
+    "archetype": "Relational",
+    "level_100_outcome": "Understands attachment patterns with nuance.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "REL-02",
+    "domain_code": "REL",
+    "domain": "Relationships & Parenting",
+    "skill": "Active listening in relationships",
+    "archetype": "Relational",
+    "level_100_outcome": "Listens in ways that repair connection.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "REL-03",
+    "domain_code": "REL",
+    "domain": "Relationships & Parenting",
+    "skill": "Conflict repair",
+    "archetype": "Relational",
+    "level_100_outcome": "Repairs conflict reliably.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "REL-04",
+    "domain_code": "REL",
+    "domain": "Relationships & Parenting",
+    "skill": "Consent & boundaries",
+    "archetype": "Relational",
+    "level_100_outcome": "Practices consent and boundaries.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "REL-05",
+    "domain_code": "REL",
+    "domain": "Relationships & Parenting",
+    "skill": "Dating & partnership",
+    "archetype": "Relational",
+    "level_100_outcome": "Builds healthy partnerships.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "REL-06",
+    "domain_code": "REL",
+    "domain": "Relationships & Parenting",
+    "skill": "Long-distance relationships",
+    "archetype": "Relational",
+    "level_100_outcome": "Sustains long-distance relationships.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "REL-07",
+    "domain_code": "REL",
+    "domain": "Relationships & Parenting",
+    "skill": "Family communication",
+    "archetype": "Relational",
+    "level_100_outcome": "Improves family communication.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "REL-08",
+    "domain_code": "REL",
+    "domain": "Relationships & Parenting",
+    "skill": "Parenting infants",
+    "archetype": "Relational",
+    "level_100_outcome": "Cares for infants safely.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "REL-09",
+    "domain_code": "REL",
+    "domain": "Relationships & Parenting",
+    "skill": "Parenting toddlers",
+    "archetype": "Relational",
+    "level_100_outcome": "Parents toddlers with empathy and structure.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "REL-10",
+    "domain_code": "REL",
+    "domain": "Relationships & Parenting",
+    "skill": "Parenting school-age children",
+    "archetype": "Relational",
+    "level_100_outcome": "Supports school-age children.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "REL-11",
+    "domain_code": "REL",
+    "domain": "Relationships & Parenting",
+    "skill": "Parenting teens",
+    "archetype": "Relational",
+    "level_100_outcome": "Parents teens with trust and limits.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "REL-12",
+    "domain_code": "REL",
+    "domain": "Relationships & Parenting",
+    "skill": "Co-parenting",
+    "archetype": "Relational",
+    "level_100_outcome": "Co-parents across households.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "REL-13",
+    "domain_code": "REL",
+    "domain": "Relationships & Parenting",
+    "skill": "Elder care",
+    "archetype": "Relational",
+    "level_100_outcome": "Coordinates elder care with dignity.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "REL-14",
+    "domain_code": "REL",
+    "domain": "Relationships & Parenting",
+    "skill": "Caregiving boundaries",
+    "archetype": "Relational",
+    "level_100_outcome": "Sets caregiving boundaries.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "REL-15",
+    "domain_code": "REL",
+    "domain": "Relationships & Parenting",
+    "skill": "Friendship maintenance",
+    "archetype": "Relational",
+    "level_100_outcome": "Maintains deep friendships.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "REL-16",
+    "domain_code": "REL",
+    "domain": "Relationships & Parenting",
+    "skill": "Community building",
+    "archetype": "Relational",
+    "level_100_outcome": "Builds community.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "REL-17",
+    "domain_code": "REL",
+    "domain": "Relationships & Parenting",
+    "skill": "Mediation",
+    "archetype": "Relational",
+    "level_100_outcome": "Mediates family and community disputes.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "REL-18",
+    "domain_code": "REL",
+    "domain": "Relationships & Parenting",
+    "skill": "Domestic labor fairness",
+    "archetype": "Relational",
+    "level_100_outcome": "Creates fair domestic labor systems.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "REL-19",
+    "domain_code": "REL",
+    "domain": "Relationships & Parenting",
+    "skill": "Sex education",
+    "archetype": "Relational",
+    "level_100_outcome": "Teaches sex education accurately.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "REL-20",
+    "domain_code": "REL",
+    "domain": "Relationships & Parenting",
+    "skill": "Fertility literacy",
+    "archetype": "Relational",
+    "level_100_outcome": "Understands fertility options.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "REL-21",
+    "domain_code": "REL",
+    "domain": "Relationships & Parenting",
+    "skill": "Adoption & fostering literacy",
+    "archetype": "Relational",
+    "level_100_outcome": "Navigates adoption and fostering.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "REL-22",
+    "domain_code": "REL",
+    "domain": "Relationships & Parenting",
+    "skill": "Grief & loss support",
+    "archetype": "Relational",
+    "level_100_outcome": "Supports grief with skill.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "REL-23",
+    "domain_code": "REL",
+    "domain": "Relationships & Parenting",
+    "skill": "Family finance",
+    "archetype": "Relational",
+    "level_100_outcome": "Manages family finances.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "REL-24",
+    "domain_code": "REL",
+    "domain": "Relationships & Parenting",
+    "skill": "Intergenerational communication",
+    "archetype": "Relational",
+    "level_100_outcome": "Bridges generations.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "REL-25",
+    "domain_code": "REL",
+    "domain": "Relationships & Parenting",
+    "skill": "Relationship counseling literacy",
+    "archetype": "Relational",
+    "level_100_outcome": "Knows when and how to seek counseling.",
+    "assessment_modes": "quiz, roleplay, artifact"
+  },
+  {
+    "id": "LRN-01",
+    "domain_code": "LRN",
+    "domain": "Learning & Meta-Skills",
+    "skill": "Learning how to learn",
+    "archetype": "Meta",
+    "level_100_outcome": "Designs personal learning systems.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "LRN-02",
+    "domain_code": "LRN",
+    "domain": "Learning & Meta-Skills",
+    "skill": "Goal setting",
+    "archetype": "Meta",
+    "level_100_outcome": "Sets goals that survive reality.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "LRN-03",
+    "domain_code": "LRN",
+    "domain": "Learning & Meta-Skills",
+    "skill": "Deliberate practice",
+    "archetype": "Meta",
+    "level_100_outcome": "Runs deliberate practice.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "LRN-04",
+    "domain_code": "LRN",
+    "domain": "Learning & Meta-Skills",
+    "skill": "Retrieval practice",
+    "archetype": "Meta",
+    "level_100_outcome": "Uses retrieval practice effectively.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "LRN-05",
+    "domain_code": "LRN",
+    "domain": "Learning & Meta-Skills",
+    "skill": "Spaced repetition",
+    "archetype": "Meta",
+    "level_100_outcome": "Builds spaced repetition systems.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "LRN-06",
+    "domain_code": "LRN",
+    "domain": "Learning & Meta-Skills",
+    "skill": "Note-taking",
+    "archetype": "Meta",
+    "level_100_outcome": "Takes notes that compound.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "LRN-07",
+    "domain_code": "LRN",
+    "domain": "Learning & Meta-Skills",
+    "skill": "Reading comprehension",
+    "archetype": "Meta",
+    "level_100_outcome": "Reads complex texts deeply.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "LRN-08",
+    "domain_code": "LRN",
+    "domain": "Learning & Meta-Skills",
+    "skill": "Speed reading",
+    "archetype": "Meta",
+    "level_100_outcome": "Reads quickly with retention.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "LRN-09",
+    "domain_code": "LRN",
+    "domain": "Learning & Meta-Skills",
+    "skill": "Memory techniques",
+    "archetype": "Meta",
+    "level_100_outcome": "Uses memory techniques.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "LRN-10",
+    "domain_code": "LRN",
+    "domain": "Learning & Meta-Skills",
+    "skill": "Focus & deep work",
+    "archetype": "Meta",
+    "level_100_outcome": "Sustains deep work.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "LRN-11",
+    "domain_code": "LRN",
+    "domain": "Learning & Meta-Skills",
+    "skill": "Metacognition",
+    "archetype": "Meta",
+    "level_100_outcome": "Thinks about thinking accurately.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "LRN-12",
+    "domain_code": "LRN",
+    "domain": "Learning & Meta-Skills",
+    "skill": "Self-assessment",
+    "archetype": "Meta",
+    "level_100_outcome": "Assesses own competence honestly.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "LRN-13",
+    "domain_code": "LRN",
+    "domain": "Learning & Meta-Skills",
+    "skill": "Feedback literacy",
+    "archetype": "Meta",
+    "level_100_outcome": "Uses feedback to improve.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "LRN-14",
+    "domain_code": "LRN",
+    "domain": "Learning & Meta-Skills",
+    "skill": "Transfer of learning",
+    "archetype": "Meta",
+    "level_100_outcome": "Transfers learning across domains.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "LRN-15",
+    "domain_code": "LRN",
+    "domain": "Learning & Meta-Skills",
+    "skill": "Curiosity",
+    "archetype": "Meta",
+    "level_100_outcome": "Sustains curiosity.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "LRN-16",
+    "domain_code": "LRN",
+    "domain": "Learning & Meta-Skills",
+    "skill": "Research skills",
+    "archetype": "Meta",
+    "level_100_outcome": "Researches to expert standard.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "LRN-17",
+    "domain_code": "LRN",
+    "domain": "Learning & Meta-Skills",
+    "skill": "Critical thinking",
+    "archetype": "Meta",
+    "level_100_outcome": "Thinks critically under pressure.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "LRN-18",
+    "domain_code": "LRN",
+    "domain": "Learning & Meta-Skills",
+    "skill": "Bias awareness",
+    "archetype": "Meta",
+    "level_100_outcome": "Detects bias in self and systems.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "LRN-19",
+    "domain_code": "LRN",
+    "domain": "Learning & Meta-Skills",
+    "skill": "Decision making",
+    "archetype": "Meta",
+    "level_100_outcome": "Makes decisions under uncertainty.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "LRN-20",
+    "domain_code": "LRN",
+    "domain": "Learning & Meta-Skills",
+    "skill": "Systems mapping",
+    "archetype": "Meta",
+    "level_100_outcome": "Maps systems.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "LRN-21",
+    "domain_code": "LRN",
+    "domain": "Learning & Meta-Skills",
+    "skill": "Creative problem solving",
+    "archetype": "Meta",
+    "level_100_outcome": "Solves problems creatively.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "LRN-22",
+    "domain_code": "LRN",
+    "domain": "Learning & Meta-Skills",
+    "skill": "Experimentation",
+    "archetype": "Meta",
+    "level_100_outcome": "Runs personal experiments.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "LRN-23",
+    "domain_code": "LRN",
+    "domain": "Learning & Meta-Skills",
+    "skill": "Reflection",
+    "archetype": "Meta",
+    "level_100_outcome": "Reflects in ways that change behavior.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "LRN-24",
+    "domain_code": "LRN",
+    "domain": "Learning & Meta-Skills",
+    "skill": "Teaching others",
+    "archetype": "Meta",
+    "level_100_outcome": "Teaches others effectively.",
+    "assessment_modes": "quiz, artifact, oral"
+  },
+  {
+    "id": "LRN-25",
+    "domain_code": "LRN",
+    "domain": "Learning & Meta-Skills",
+    "skill": "Lifelong learning design",
+    "archetype": "Meta",
+    "level_100_outcome": "Designs a lifelong learning life.",
+    "assessment_modes": "quiz, artifact, oral"
+  }
+]

@@ -1,0 +1,73 @@
+# Production topology (Hetzner CAX21). Neon Postgres is external/managed.
+services:
+  api:
+    build: .
+    image: education-economy:latest
+    command: ["/app/bin/api"]
+    restart: unless-stopped
+    environment:
+      DATABASE_URL: ${DATABASE_URL}
+      REDIS_URL: redis://redis:6379
+      SESSION_SECRET: ${SESSION_SECRET}
+      APP_URL: ${APP_URL}
+      APP_ENV: production
+    depends_on:
+      - redis
+    ports:
+      - "4000:4000"
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+          cpus: "1.5"
+
+  genai:
+    build: .
+    image: education-economy:latest
+    command: ["/app/bin/genai"]
+    restart: unless-stopped
+    environment:
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      REDIS_URL: redis://redis:6379
+      APP_ENV: production
+    depends_on:
+      - redis
+    ports:
+      - "5000:5000"
+    deploy:
+      resources:
+        limits:
+          memory: 384M
+          cpus: "0.75"
+
+  # UI: shipped as a static site (`trunk build` output) and served by Caddy.
+  # No long-running UI container is needed — mount `./services/ui/dist` into caddy.
+
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    command: redis-server --appendonly yes --maxmemory 256mb --maxmemory-policy allkeys-lru
+    volumes:
+      - redisdata:/data
+    deploy:
+      resources:
+        limits:
+          memory: 256M
+
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+      # Built by `trunk build` in services/ui; mount its dist output here.
+      - ./services/ui/dist:/srv/www:ro
+      - caddy_data:/data
+      - caddy_config:/config
+
+volumes:
+  redisdata:
+  caddy_data:
+  caddy_config:

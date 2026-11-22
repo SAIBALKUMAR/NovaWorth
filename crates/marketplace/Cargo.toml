@@ -1,0 +1,10 @@
+[package]
+name = "marketplace"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
+common   = { path = "../common" }
+economy  = { path = "../economy" }
+sqlx.workspace = true
+uuid.workspace = true
