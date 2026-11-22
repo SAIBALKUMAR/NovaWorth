@@ -4,4 +4,6 @@
 pub mod dispute;
 pub mod escrow;
 pub mod order;
+pub mod pricing;
 pub mod settlement;
+pub mod supply;

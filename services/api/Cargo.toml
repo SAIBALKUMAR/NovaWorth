@@ -12,6 +12,7 @@ common  = { path = "../../crates/common" }
 db      = { path = "../../crates/db" }
 auth    = { path = "../../crates/auth" }
 economy = { path = "../../crates/economy" }
+marketplace = { path = "../../crates/marketplace" }
 social  = { path = "../../crates/social" }
 axum.workspace           = true
 axum-login.workspace     = true

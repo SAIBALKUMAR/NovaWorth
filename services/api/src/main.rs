@@ -54,6 +54,7 @@ async fn main() {
         .merge(routes::health::router())
         .merge(routes::auth::router(Arc::clone(&state)))
         .merge(routes::economy::router(Arc::clone(&state)))
+        .merge(routes::marketplace::router(Arc::clone(&state)))
         .merge(routes::social::router(Arc::clone(&state)))
         .layer(cors)
         .layer(CompressionLayer::new())

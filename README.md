@@ -58,6 +58,7 @@ Read in this order for the full picture.
 | [Marketplace economics](docs/01-economy/06-marketplace-economics.md) | Pricing, subsidies, emission control, inflation |
 | [Integrity](docs/01-economy/07-integrity.md) | Anti-cheat, clawbacks, collusion, audit |
 | [Simulation model](docs/01-economy/08-economy-simulation.md) | Worked cohort numbers and tuning levers |
+| [Live supply & pricing](docs/01-economy/09-live-supply-pricing.md) | Real-time demand/supply price counter and the AI supply oracle |
 
 ### Skills & curriculum
 | Doc | What it answers |

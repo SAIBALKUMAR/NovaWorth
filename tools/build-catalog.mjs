@@ -1,6 +1,6 @@
 // Builds the 500-skill catalog and generated markdown index.
 // Usage: node tools/build-catalog.mjs
-import { mkdirSync, writeFileSync } from "node:fs";
+import { mkdirSync, writeFileSync, readFileSync, existsSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -574,6 +574,14 @@ const DATA = {
   ],
 };
 
+// Long-form descriptions (id -> description), generated from
+// docs/02-skills/data/skill-descriptions/*.md into descriptions.json.
+const _dataDir = resolve(root, "docs/02-skills/data");
+const _descFile = resolve(_dataDir, "descriptions.json");
+const descriptions = existsSync(_descFile)
+  ? JSON.parse(readFileSync(_descFile, "utf8"))
+  : {};
+
 const rows = [];
 for (const domain of DOMAINS) {
   const skills = DATA[domain.code];
@@ -581,14 +589,16 @@ for (const domain of DOMAINS) {
     throw new Error(`${domain.code} must have 25 skills, got ${skills?.length}`);
   }
   skills.forEach(([skill, level100], i) => {
+    const id = `${domain.code}-${String(i + 1).padStart(2, "0")}`;
     rows.push({
-      id: `${domain.code}-${String(i + 1).padStart(2, "0")}`,
+      id,
       domain_code: domain.code,
       domain: domain.name,
       skill,
       archetype: domain.archetype,
       level_100_outcome: level100,
       assessment_modes: domain.modes,
+      description: descriptions[id] || "",
     });
   });
 }
@@ -599,8 +609,8 @@ if (ids.size !== 500) throw new Error("Duplicate IDs found");
 
 const csvEscape = (v) => `"${String(v).replaceAll('"', '""')}"`;
 const csv = [
-  ["id", "domain_code", "domain", "skill", "archetype", "level_100_outcome", "assessment_modes"],
-  ...rows.map((r) => [r.id, r.domain_code, r.domain, r.skill, r.archetype, r.level_100_outcome, r.assessment_modes]),
+  ["id", "domain_code", "domain", "skill", "archetype", "level_100_outcome", "assessment_modes", "description"],
+  ...rows.map((r) => [r.id, r.domain_code, r.domain, r.skill, r.archetype, r.level_100_outcome, r.assessment_modes, r.description]),
 ]
   .map((cols) => cols.map(csvEscape).join(","))
   .join("\n");

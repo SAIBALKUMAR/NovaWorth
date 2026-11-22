@@ -120,3 +120,19 @@ pub const GUILD_MAX_MEMBERS: u32 = 50;
 pub const GUILD_FOUNDER_MIN_LEVEL: u32 = 10;
 /// Minimum level to become a mentor
 pub const MENTOR_MIN_LEVEL: u32 = 60;
+
+// ── Marketplace dynamic pricing & live supply ───────────────────────────────
+/// Supply-shortage price sensitivity coefficient. Zero disables supply-driven pricing.
+pub const PRICE_SUPPLY_SENSITIVITY: f64 = 0.2;
+/// Demand-surge price sensitivity coefficient. Zero disables demand-driven pricing.
+pub const PRICE_DEMAND_SENSITIVITY: f64 = 0.2;
+/// Hard cap on dynamic price as a fraction above the cost floor (±20% policy).
+pub const DYNAMIC_PRICE_CAP: f64 = 0.20;
+/// Minimum seconds between successive price-tick writes for a product.
+pub const PRICE_UPDATE_MIN_INTERVAL_SECS: u64 = 300;
+/// Supply-event confidence below which an event is rejected as untrusted/stale.
+pub const SUPPLY_MIN_CONFIDENCE: f64 = 0.20;
+/// Default expected on-hand supply (units) used to detect a shortage.
+pub const SUPPLY_TARGET_UNITS: i64 = 20;
+/// Default demand baseline (units/window) for the demand-surge factor.
+pub const DEMAND_BASELINE: f64 = 10.0;
