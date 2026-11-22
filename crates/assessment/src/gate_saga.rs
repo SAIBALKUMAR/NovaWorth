@@ -247,16 +247,24 @@ impl GateSaga {
         ec_amt: i64,
         pool_id: Uuid,
     ) -> Result<(), AppError> {
-        sqlx::query(
+        let claimed = sqlx::query(
             "UPDATE sponsor_pools
              SET emitted_ec = emitted_ec + $2, reserved_ec = reserved_ec - $2
-             WHERE id = $1",
+             WHERE id = $1 AND reserved_ec >= $2",
         )
         .bind(pool_id)
         .bind(ec_amt)
         .execute(&self.pool)
         .await
         .map_err(AppError::Database)?;
+
+        // Refuse to mint when the pool is under-reserved. The CHECK in 0009 is the
+        // hard DB invariant against races; this is the friendly application gate.
+        if claimed.rows_affected() == 0 {
+            return Err(AppError::Validation(
+                "Sponsor pool has insufficient reserved EC".into(),
+            ));
+        }
 
         ledger::post_transaction(
             &self.pool,
@@ -378,7 +386,7 @@ impl GateSaga {
         let status = if passed { "passed" } else { "failed" };
         let result = sqlx::query(
             "UPDATE attempts
-             SET score = $3, status = $4, integrity_score = 1.0, submitted_at = now()
+             SET score = $3, status = $4, integrity_score = CASE WHEN EXTRACT(EPOCH FROM (now() - started_at)) < $5 THEN 0.4 ELSE 1.0 END, submitted_at = now()
              WHERE id = (
                 SELECT id FROM attempts
                 WHERE user_id = $1 AND level_id = $2 AND status = 'pending'
@@ -388,7 +396,7 @@ impl GateSaga {
         .bind(user_id)
         .bind(level_id)
         .bind(score)
-        .bind(status)
+        .bind(status).bind(common::constants::MIN_GATE_DURATION_SECS)
         .execute(&self.pool)
         .await
         .map_err(AppError::Database)?;

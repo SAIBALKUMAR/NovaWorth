@@ -85,9 +85,18 @@ struct SupplyPayload {
 /// Accept a supply observation (merchant push, sensor, or AI-inferred forecast).
 async fn ingest_supply(
     State(state): State<Arc<AppState>>,
-    _auth: AuthSession,
+    auth: AuthSession,
     Json(payload): Json<SupplyPayload>,
 ) -> Result<Json<serde_json::Value>, AppError> {
+    // Only non-learners may inject supply: merchants, sensors (service), or the
+    // AI supply oracle (which authenticates with a sponsor/admin identity).
+    let user = auth.user.ok_or(AppError::SessionExpired)?;
+    if user.role == "learner" {
+        return Err(AppError::Forbidden {
+            required: "merchant/admin/sponsor".into(),
+        });
+    }
+
     let source = match payload.source.as_str() {
         "merchant_push" | "merchant" => SupplySource::Merchant,
         "ai_inference" | "ai" => SupplySource::Ai,

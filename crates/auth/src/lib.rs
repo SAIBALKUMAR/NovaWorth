@@ -1,4 +1,10 @@
 pub mod backend;
+pub mod captcha;
 pub mod lockout;
-pub mod password;
+pub mod mfa;
 pub mod oauth;
+pub mod password;
+pub mod rate_limit;
+pub mod reset;
+pub mod sessions;
+pub mod verification;

@@ -2,5 +2,6 @@
 //! gate saga that turns a passing assessment into a ledger award.
 
 pub mod gate_saga;
+pub mod grading;
 pub mod irt;
 pub mod rubric;

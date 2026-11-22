@@ -52,6 +52,9 @@ pub struct AppConfig {
     // App
     pub app_env: AppEnv,
     pub app_url: String,
+
+    // Security
+    pub turnstile_secret: String,
 }
 
 #[derive(Debug, Clone, PartialEq)]
@@ -98,6 +101,7 @@ impl AppConfig {
             r2_public_url:              env_or("R2_PUBLIC_URL", ""),
             app_env:                    parse_env(),
             app_url:                    env_or("APP_URL", "http://localhost:3000"),
+            turnstile_secret:           env_or("TURNSTILE_SECRET", ""),
         }
     }
 }

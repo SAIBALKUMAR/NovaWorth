@@ -8,6 +8,7 @@ name = "api"
 path = "src/main.rs"
 
 [dependencies]
+assessment = { path = "../../crates/assessment" }
 common  = { path = "../../crates/common" }
 db      = { path = "../../crates/db" }
 auth    = { path = "../../crates/auth" }

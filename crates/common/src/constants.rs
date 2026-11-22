@@ -136,3 +136,6 @@ pub const SUPPLY_MIN_CONFIDENCE: f64 = 0.20;
 pub const SUPPLY_TARGET_UNITS: i64 = 20;
 /// Default demand baseline (units/window) for the demand-surge factor.
 pub const DEMAND_BASELINE: f64 = 10.0;
+/// Minimum gate attempt duration (seconds) considered plausible; faster completion
+/// is flagged as low integrity (server-side timing heuristic).
+pub const MIN_GATE_DURATION_SECS: i64 = 10;

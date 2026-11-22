@@ -11,7 +11,7 @@
 use std::sync::Arc;
 use axum::{
     extract::{Query, State},
-    http::StatusCode,
+    http::{HeaderMap, StatusCode},
     response::{IntoResponse, Redirect},
     routing::{get, post},
     Json, Router,
@@ -48,12 +48,15 @@ struct RegisterRequest {
     username: String,
     #[validate(length(min = 8, max = 128))]
     password: String,
+    captcha:  String,
 }
 
 #[derive(Debug, Deserialize)]
 struct LoginRequest {
     email:    String,
     password: String,
+    captcha:  String,
+    totp:     Option<String>,
 }
 
 #[derive(Debug, Serialize)]
@@ -84,13 +87,34 @@ struct OAuthCallback {
 
 // ── Handlers ──────────────────────────────────────────────────────────────────
 
+/// Resolve the client IP from proxy headers (Caddy injects X-Forwarded-For).
+fn client_ip(headers: &HeaderMap) -> String {
+    headers
+        .get("x-forwarded-for")
+        .and_then(|v| v.to_str().ok())
+        .and_then(|v| v.split(',').next())
+        .map(|s| s.trim().to_string())
+        .or_else(|| {
+            headers
+                .get("x-real-ip")
+                .and_then(|v| v.to_str().ok())
+                .map(|s| s.trim().to_string())
+        })
+        .unwrap_or_else(|| "unknown".to_string())
+}
+
 async fn register(
     State(state): State<Arc<AppState>>,
     mut auth:     AuthSession,
+    headers:      HeaderMap,
     Json(body):   Json<RegisterRequest>,
 ) -> Result<impl IntoResponse, AppError> {
     body.validate()
         .map_err(|e| AppError::Validation(e.to_string()))?;
+
+    let ip_hash = auth::lockout::hash_ip(&client_ip(&headers));
+    auth::captcha::verify(&state.http_client, &state.config.turnstile_secret, &body.captcha).await?;
+    auth::rate_limit::check(&state.pool, "register", &ip_hash, 10, 3600).await?;
 
     if users::email_exists(&state.pool, &body.email).await? {
         return Err(AppError::Validation("Email already registered".into()));
@@ -117,6 +141,9 @@ async fn register(
         password_hash: user.password_hash.clone(),
         role:          user.role.clone(),
     };
+    let _token = auth::verification::issue_token(&state.pool, user.id).await?;
+    tracing::info!(user_id = %user.id, "Issued email verification token (deliver via email in production)");
+
     auth.login(&auth_user)
         .await
         .map_err(|e| AppError::Internal(e.to_string()))?;
@@ -128,10 +155,17 @@ async fn register(
 async fn login(
     State(state): State<Arc<AppState>>,
     mut auth:    AuthSession,
+    headers:     HeaderMap,
     Json(body):  Json<LoginRequest>,
 ) -> Result<Json<UserResponse>, AppError> {
-    // 1. Lockout check (before authenticating, so the response is actionable).
-    if let Some(locked_until) = auth::lockout::is_locked(&state.pool, &body.email).await? {
+    let ip_hash = auth::lockout::hash_ip(&client_ip(&headers));
+
+    // 0. Bot defense: captcha, then a per-IP rate limit.
+    auth::captcha::verify(&state.http_client, &state.config.turnstile_secret, &body.captcha).await?;
+    auth::rate_limit::check(&state.pool, "login", &ip_hash, 20, 3600).await?;
+
+    // 1. Lockout check, scoped to (email, ip) so nobody can lock a victim out.
+    if let Some(locked_until) = auth::lockout::is_locked(&state.pool, &body.email, &ip_hash).await? {
         let minutes = (locked_until - chrono::Utc::now()).num_minutes().max(1);
         return Err(AppError::AccountLocked {
             minutes: minutes as u64,
@@ -143,18 +177,27 @@ async fn login(
         password: body.password.clone(),
     };
 
-    // 2. Authenticate; record a failure and re-check the lockout on bad creds.
+    // 2. Authenticate; record a failure on bad creds.
     let user = match auth.authenticate(creds).await {
         Ok(Some(user)) => user,
         Ok(None) => {
-            auth::lockout::record_failure(&state.pool, &body.email).await?;
+            auth::lockout::record_failure(&state.pool, &body.email, &ip_hash).await?;
             return Err(AppError::InvalidCredentials);
         }
         Err(e) => return Err(AppError::Internal(e.to_string())),
     };
 
-    // 3. Success: clear the failure counter and open a session.
-    auth::lockout::clear_failures(&state.pool, &body.email).await?;
+    // 3. MFA step-up when TOTP is enabled on the account.
+    if let Some(secret) = auth::mfa::enabled_secret(&state.pool, user.id).await? {
+        let code = body.totp.as_deref().unwrap_or("");
+        let now = chrono::Utc::now().timestamp() as u64;
+        if !auth::mfa::verify(&secret, code, now) {
+            return Err(AppError::Validation("Invalid 2FA code".into()));
+        }
+    }
+
+    // 4. Success: clear failures and open a session.
+    auth::lockout::clear_failures(&state.pool, &body.email, &ip_hash).await?;
     auth.login(&user)
         .await
         .map_err(|e| AppError::Internal(e.to_string()))?;
